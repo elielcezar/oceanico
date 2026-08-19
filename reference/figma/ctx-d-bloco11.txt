@@ -1,0 +1,52 @@
+const imgImage1 = "http://localhost:3845/assets/ff962bb0e827945c17feeab3b1fed8dd7a24bc4a.png";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-[#00394e] relative size-full" data-node-id="134:6485" data-name="BLOCO 11">
+      <div className="-translate-y-1/2 absolute content-stretch flex items-center left-[215px] top-[calc(50%+1px)] w-[850px]" data-node-id="135:6872">
+        <div className="content-stretch flex flex-col h-[443px] items-start justify-between mr-[-14px] relative shrink-0 w-[514px]" data-node-id="135:6871">
+          <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[normal] min-w-full relative shrink-0 text-[35px] text-white w-[min-content]" data-node-id="134:6490" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Quem é a sua professora?
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[#b7cdd6] text-[16px] w-[426px] whitespace-pre-wrap" data-node-id="134:6491" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[20px] mb-0">{`Manu Leão atua há três décadas na interseção entre comunicação, cultura e educação. É editora, curadora literária e designer. `}</p>
+            <p className="leading-[20px] mb-0">​</p>
+            <p className="leading-[20px] mb-0">Com formação em Artes Visuais e especialização em Psicanálise, lidera a Carlô Comunicação e Cultura, agência especializada em Brand Publishing e mídias proprietárias há 20 anos.</p>
+            <p className="leading-[20px] mb-0">​</p>
+            <p className="leading-[20px]">Ao longo da carreira, criou e coordenou revistas, livros, eventos literários, podcasts, portal de notícias e campanhas estratégicas de conteúdo para marcas como Assaí Atacadista, Volvo, Boticário, Bergerson Joias, Matte Leão, Palácio do Planalto, Ministério da Educação, Universidade de Salamanca (Espanha) e UFPR.</p>
+          </div>
+          <div className="bg-[#e96100] content-stretch flex gap-[10px] h-[42px] items-center justify-center px-[104px] py-[13px] relative shrink-0 w-[355px]" data-node-id="134:6492" data-name="Botão Acesso">
+            <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6492;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+              QUERO COMEÇAR JÁ
+            </p>
+            <div className="relative shrink-0 size-[20px]" data-node-id="I134:6492;15:221" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="h-[443px] relative rounded-[17.333px] shrink-0 w-[345px]" data-node-id="134:6488" data-name="image 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[17.333px]">
+            <img alt="" className="absolute h-[118.02%] left-[-0.04%] max-w-none top-[-15.64%] w-[100.04%]" src={imgImage1} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Azul Petróleo Escuro: #00394E.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

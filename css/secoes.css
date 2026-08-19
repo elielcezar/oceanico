@@ -1,0 +1,1904 @@
+/* ==========================================================================
+   Blocos da landing, na ordem em que aparecem na pagina.
+   Medidas conferidas contra os frames "desktop" (1280) e "Mobile" (375).
+   ========================================================================== */
+
+/* ------------------------------------------------------------ cabecalho --- */
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  height: clamp(78px, calc(78px + 16 * (100vw - 375px) / 905), 94px);
+  padding-inline: 19.5px;
+  background: var(--azul-profundo);
+}
+
+/* quem centra o logo agora e o container, nao o cabecalho */
+.cabecalho .container {
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho__logo img {
+  width: clamp(134px, calc(134px + 34 * (100vw - 375px) / 905), 168px);
+  height: auto;
+}
+
+/* ============================================================== BLOCO 1 ===
+   Hero. Mobile: texto centralizado, foto embaixo e o botao laranja
+   sobreposto a foto (sobreposicao real do design, por isso absolute).
+   Desktop: texto a esquerda, foto a direita alinhada ao rodape do bloco.
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  /* a foto sai da propria moldura de proposito; o corte acontece so na borda
+     da tela, para nao criar rolagem horizontal entre 768 e ~1100px */
+  overflow-x: clip;
+  /* gradiente radial exportado do proprio Figma (frame mobile) */
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 377 654' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%25' width='100%25' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-5.45 -39.3 40.184 -5.5725 243.5 518.5)'><stop stop-color='rgba(0,88,116,1)' offset='0'/><stop stop-color='rgba(2,65,86,1)' offset='0.2746'/><stop stop-color='rgba(3,43,56,1)' offset='0.5492'/></radialGradient></defs></svg>");
+  background-size: 100% 100%;
+  padding-top: 29px;
+}
+
+/* a foto do hero se posiciona pelo container, nao pela borda da tela */
+.hero .container {
+  position: relative;
+}
+
+.hero__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-inline: 24px;
+  text-align: center;
+}
+
+/* No mobile o olho e o titulo tem 323,381px dentro de um container de 329 e
+   ficam encostados a esquerda - por isso o texto centralizado nao cai no meio
+   exato do bloco. Sem isso as duas linhas saem 3px a direita do original.
+   O titulo abraca a linha mais larga (as quebras sao explicitas no HTML), que
+   e exatamente de onde vem o 323,381 do arquivo; e o pre-wrap preserva o
+   espaco no fim de "Crie conteudos ", que no Figma desloca a linha 4px. */
+.hero__olho {
+  width: 98.29%;
+  color: var(--amarelo);
+}
+
+.hero__olho b {
+  font-weight: 700;
+}
+
+.hero__titulo {
+  width: fit-content;
+  white-space: pre-wrap;
+  font-size: clamp(37px, calc(37px + 9 * (100vw - 375px) / 905), 46px);
+  line-height: clamp(38px, calc(38px + 10 * (100vw - 375px) / 905), 48px);
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.hero__titulo em {
+  color: var(--amarelo);
+}
+
+.hero__descricao {
+  font-size: var(--fs-corpo);
+  line-height: var(--lh-corpo);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero__acoes {
+  /* o botao passa por cima da foto: sobreposicao do proprio design */
+  position: absolute;
+  z-index: 1;
+  left: 22px;
+  right: 22px;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hero__cta {
+  width: 100%;
+  max-width: 331px;
+}
+
+.hero__cta-secundario,
+.hero__assinatura {
+  display: none;
+}
+
+.hero__foto {
+  position: relative;
+  width: 74.4%; /* 279 de 375 */
+  margin: 12.64px auto 0; /* fecha o bloco nos 654px do frame */
+  aspect-ratio: 279 / 327.36;
+  overflow: hidden;
+}
+
+/* A webp e a mesma arte com as margens transparentes aparadas (conteudo
+   identico, 1188x1541 px nas duas). Por isso a caixa mudou de lugar: o recorte
+   tirou 343px a esquerda e 1564px no topo, e estes valores recolocam o assunto
+   exatamente onde estava. A altura fica automatica para nao distorcer. */
+.hero__foto img {
+  position: absolute;
+  width: 88.62%;
+  height: auto;
+  max-width: none;
+  left: 7.31%;
+  top: 1.14%;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    /* gradiente radial do frame desktop */
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1280 656' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%25' width='100%25' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-33.45 -42 39.213 -31.23 1007.5 511.5)'><stop stop-color='rgba(0,88,116,1)' offset='0'/><stop stop-color='rgba(2,65,86,1)' offset='0.44061'/><stop stop-color='rgba(3,43,56,1)' offset='0.88123'/></radialGradient></defs></svg>");
+    min-height: 656px;
+    padding: 81px 0 0;
+  }
+
+  .hero__texto {
+    /* 455 de 1280; a coluna vai ate 670px e a foto comeca em 658px, entao as
+       duas se cruzam por 12px - e por isso que a foto sai do fluxo aqui */
+    width: 53.53%; /* 455 dos 850 do container */
+    min-height: 575px; /* 656 - 81 de padding-top */
+    gap: 30px;
+    padding-inline: 0;
+    padding-bottom: 19px;
+    text-align: left;
+  }
+
+  .hero__olho,
+  .hero__titulo {
+    width: 100%;
+  }
+
+  .hero__acoes {
+    position: static;
+    justify-content: flex-start;
+  }
+
+  .hero__cta,
+  .hero__cta-secundario {
+    width: 212px;
+    max-width: none;
+    padding-inline: 20px;
+  }
+
+  .hero__cta-secundario {
+    display: inline-flex;
+  }
+
+  .hero__assinatura {
+    display: block;
+    margin-top: auto;
+    font-size: var(--fs-olho);
+    line-height: var(--lh-olho);
+    letter-spacing: var(--ls-olho);
+    text-transform: uppercase;
+    color: var(--azul-acinzentado);
+  }
+
+  .hero__assinatura b {
+    font-weight: 500;
+  }
+
+  .hero__assinatura span {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  /* no desktop a foto nao e recortada e desloca menos: no mobile o design
+     mantem o recorte de 279px, com ela centrada na janela */
+  .hero__foto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 53.29%; /* 453 dos 850 do container */
+    margin: 0;
+    aspect-ratio: 453 / 532;
+    overflow: visible;
+  }
+
+  .hero__foto img {
+    left: 18.31%;
+  }
+}
+
+/* ============================================================== BLOCO 3 ===
+   "Nesse curso, voce vai descobrir" + os tres perfis.
+   Fundo em degrade do azul claro ao azul profundo; no rodape do bloco entra
+   o mergulhador (multiply) com o brilho por cima (hard-light).
+   ========================================================================== */
+
+.curso {
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--azul-fundo-claro) 6.259%,
+    var(--azul-acinzentado) 42.3%,
+    var(--azul-profundo) 68.54%
+  );
+}
+
+.curso__marca {
+  position: absolute;
+  top: -2.18px;
+  left: 50%;
+  translate: -50% 0;
+  width: 78px;
+  padding-top: 1.448px;
+}
+
+/* ---- titulo + video + pontos ---- */
+
+.curso__titulo {
+  margin-left: 11.73%; /* 44 de 375 */
+  font-size: clamp(38px, calc(38px + 8 * (100vw - 375px) / 905), 46px);
+  line-height: clamp(39px, calc(39px + 9 * (100vw - 375px) / 905), 48px);
+  font-weight: 700;
+  color: var(--azul-petroleo-escuro);
+}
+
+.curso__colunas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.curso__video {
+  /* no mobile o video vem depois da lista e do botao */
+  order: 1;
+  position: relative;
+  width: 88.8%; /* 333 de 375 */
+  margin: 65px auto 0;
+  aspect-ratio: 333 / 466;
+}
+
+/* A arte tem 287x387 e o video 540x960; a caixa tem outra proporcao que as
+   duas, entao o recorte e por cover. Conferido: as legendas queimadas do video
+   ficam entre 70% e 75% da altura, e a faixa visivel vai de 10,7% a 89,3% -
+   elas nao sao cortadas. */
+/* absolutos dentro da moldura: com height:100% a porcentagem nao resolve
+   contra uma altura vinda de aspect-ratio, e o video acabava impondo a propria
+   proporcao (540x960), esticando o card em 126px depois de carregar */
+.curso__video img,
+.curso__video video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--azul-profundo);
+}
+
+.curso__pontos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-inline: 5.6%; /* 21 de 375 */
+}
+
+.pontos {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  /* No mobile a caixa de texto do item tem 315px e comeca em x=56, ou seja,
+     passa 16,5px da coluna de 333 - continua dentro dos 375 da tela. Sem esta
+     folga o texto quebra em mais linhas do que o desenho. */
+  margin-right: -16.5px;
+}
+
+.pontos__item {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* No mobile as caixas dos itens tem altura fixa no Figma e nao acompanham o
+   texto: o espacamento real fica 25, 23 e 14px. Corrigido por margem, para o
+   texto continuar fluindo em vez de ganhar altura travada. */
+.pontos__item:nth-child(1) {
+  margin-bottom: 2px;
+}
+
+.pontos__item:nth-child(3) {
+  margin-bottom: -9px;
+}
+
+.pontos__seta {
+  flex: none;
+  width: 14px;
+  height: 14px;
+  margin-top: 5px;
+  margin-right: 15.5px;
+}
+
+.pontos__item p {
+  padding-left: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--azul-petroleo-escuro);
+}
+
+.curso__cta {
+  width: 100%;
+  /* as caixas dos itens no Figma tem altura fixa e sobram 23px no fim da
+     lista; aqui a lista termina no texto, entao a folga entra no botao */
+  margin-top: 63px;
+}
+
+/* ---- olho, pergunta e perfis ---- */
+
+.curso__perfis {
+  padding-inline: 5.6%;
+}
+
+.curso__olho {
+  margin-top: 53px;
+  color: var(--branco);
+}
+
+.curso__pergunta {
+  margin-top: 19px;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: var(--amarelo);
+}
+
+.perfis {
+  display: flex;
+  flex-direction: column;
+  gap: 54.966px;
+  margin-top: 36px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 23.39px;
+  align-items: stretch; /* o selo ocupa a largura toda da coluna */
+}
+
+.perfil__selo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 3.508px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  background: rgba(249, 160, 0, 0.43);
+  font-size: 14px;
+  line-height: 19.881px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: var(--branco);
+  white-space: nowrap;
+}
+
+/* o selo mais longo tem entreletra negativa no arquivo, para caber */
+.perfil__selo--apertado {
+  letter-spacing: -0.28px;
+}
+
+.perfil p {
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--branco);
+  white-space: pre-wrap;
+  /* o no do Figma tem text-box-trim: trim-both; sem isto o texto nasce 3px
+     abaixo, porque o navegador mantem a meia-entrelinha acima da maiuscula */
+  text-box: trim-both cap alphabetic;
+}
+
+/* ---- "O momento e agora" ---- */
+
+.curso__agora {
+  margin: 94.4px auto 0;
+  width: 84.8%; /* 318 de 375 */
+  font-size: 18.288px;
+  line-height: normal;
+  font-weight: 500;
+  text-align: center;
+  color: var(--amarelo);
+}
+
+.curso__agora b {
+  font-weight: 700;
+}
+
+/* ---- mergulhador ---- */
+
+.curso__mergulhador {
+  position: relative;
+  margin-top: 11px;
+  height: 377px;
+}
+
+.curso__mergulhador-foto {
+  position: absolute;
+  bottom: -0.33px;
+  left: 48.9%; /* centro 183,3 de 375 */
+  translate: -50% 0;
+  width: 95.65%; /* 358,7 de 375 */
+  max-width: none;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.curso__brilho {
+  position: absolute;
+  right: 14.15%; /* 53 de 375 */
+  bottom: 51vw;
+  width: 57.85%; /* 216,9 de 375 */
+  aspect-ratio: 216.935 / 233.802;
+  mix-blend-mode: hard-light;
+}
+
+.curso__brilho img {
+  width: 109.38%;
+  height: 109.52%;
+  max-width: none;
+  margin: -4.76% 0 0 -4.69%;
+}
+
+@media (min-width: 768px) {
+  .curso {
+    padding-top: 83px;
+    padding-bottom: 204px; /* espaco do mergulhador, que esta fora do fluxo */
+  }
+
+  .curso__titulo {
+    margin-left: 0; /* o container ja comeca onde o titulo comecava */
+  }
+
+  .curso__colunas {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 7.29%; /* 62 dos 850 de content box */
+    margin-top: 55px;
+    padding-inline: 0;
+  }
+
+  .curso__video {
+    order: 0;
+    flex: none;
+    width: 38.12%; /* 324 dos 850 do container */
+    margin: 0;
+    aspect-ratio: 324 / 453;
+  }
+
+
+  .curso__pontos {
+    flex: 1;
+    padding-top: 25px;
+    padding-inline: 0;
+  }
+
+  .pontos {
+    gap: 36px;
+    margin-right: 0;
+  }
+
+  .pontos__item {
+    gap: 4px;
+  }
+
+  .pontos__item:nth-child(1),
+  .pontos__item:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  .pontos__seta {
+    margin-right: 0;
+  }
+
+  .curso__cta {
+    width: 337px;
+    margin-top: auto;
+    margin-left: 22px; /* alinha com o texto dos itens, nao com as setas */
+  }
+
+  .curso__perfis {
+    padding-inline: 0.59%; /* os perfis ficam 5px para dentro do container */
+  }
+
+  .curso__olho {
+    margin-top: 79px;
+  }
+
+  .curso__pergunta {
+    margin-top: 18px;
+  }
+
+  .perfis {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 54.966px 50px;
+    margin-top: 58px;
+  }
+
+  .perfil {
+    gap: 23.39px;
+  }
+
+  .curso__agora {
+    width: 61.29%; /* 521 dos 850 do container */
+    margin: 0;
+    margin-left: 0.59%;
+    padding-top: 118.6px; /* poe o texto no y=1315 do frame */
+    font-size: 25px;
+    text-align: left;
+    color: var(--branco);
+  }
+
+  .curso__agora b {
+    font-weight: 500;
+  }
+
+  /* No desktop o mergulhador comeca em y=1263 e o texto ao lado so termina em
+     1431: eles se sobrepoem de verdade. Por isso ele sai do fluxo aqui e o
+     bloco reserva a altura dele com padding-bottom. */
+  .curso__mergulhador {
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 372px;
+    margin-top: 0;
+  }
+
+  .curso__mergulhador-foto {
+    left: auto;
+    right: 10.86%; /* 139 de 1280 */
+    translate: none;
+    width: 35.78%; /* 458 de 1280 */
+  }
+
+  .curso__brilho {
+    right: 14.22%; /* 182 de 1280 */
+    bottom: 19vw;
+    width: 21.64%; /* 277 de 1280 */
+    aspect-ratio: 277 / 273;
+  }
+}
+
+/* ============================================================== BLOCO 4 ===
+   Bloco creme sobre Inteligencia Artificial. Coluna unica centrada; os
+   paragrafos sao separados por uma linha vazia de 20px, como no arquivo.
+   ========================================================================== */
+
+.ia {
+  display: flex;
+  flex-direction: column;
+  padding-block: 36px;
+  /* o frame tem altura fixa e sobra folga alem do padding; min-height deixa
+     o bloco crescer se o texto reflui em larguras intermediarias */
+  min-height: 528px;
+  background: #f5e9da;
+}
+
+/* o container assumiu o papel de organizar a coluna, antes da secao */
+.ia .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+}
+
+.ia__titulo {
+  width: 88.8%; /* 333 de 375 */
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 700;
+  color: var(--laranja);
+}
+
+.ia__titulo em {
+  display: block;
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+.ia__texto {
+  width: 88.8%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--azul-petroleo-escuro);
+}
+
+/* pre-wrap vai no paragrafo, nunca no container: no container ele
+   transformaria a indentacao do HTML entre as tags em linhas em branco */
+.ia__texto p {
+  white-space: pre-wrap;
+}
+
+.ia__texto p + p {
+  margin-top: 20px; /* a linha em branco do arquivo */
+}
+
+@media (min-width: 768px) {
+  .ia {
+    justify-content: center; /* no desktop o conteudo e centrado na altura */
+    min-height: 421px;
+  }
+
+  .ia__titulo {
+    width: 100%;
+    font-size: 45px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .ia__titulo em {
+    font-size: 45px;
+    line-height: 48px;
+  }
+
+  .ia__texto {
+    width: 100%;
+  }
+}
+
+/* ============================================================== BLOCO 5 ===
+   "Se voce se pegar pensando" x "Lembre-se de que". No desktop as duas
+   colunas ficam lado a lado com os conteudos centrados na altura da linha;
+   no mobile empilham na mesma ordem do HTML.
+   ========================================================================== */
+
+.objecoes {
+  position: relative;
+  padding: 55px 5.6% 54px; /* 21 de 375 */
+  background: var(--azul-petroleo-escuro);
+}
+
+.objecoes__colunas {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-top: 43px;
+}
+
+.objecoes__coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.objecoes__titulo {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.objecoes__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.objecoes__lista li {
+  padding: 13.25px 10px; /* fecha a caixa em 38px cheios */
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: pretty;
+  color: var(--branco);
+  /* o Figma corta a entrelinha: caixa de 1 linha = 13 + altura de caixa alta
+     + 13 = 38px, e cada linha extra soma 20 */
+  text-box: trim-both cap alphabetic;
+}
+
+.objecoes__lista i {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.objecoes__resposta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 327px;
+  padding: 10px 10px 10px 13px;
+  background: rgba(11, 182, 31, 0.7);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--branco);
+}
+
+.objecoes__resposta p + p {
+  margin-top: 20px; /* a linha em branco do arquivo */
+}
+
+.objecoes__cta {
+  width: 100%;
+  margin-top: 66px;
+}
+
+@media (min-width: 768px) {
+  .objecoes {
+    padding: 63px 0;
+  }
+
+  .objecoes .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .objecoes__olho {
+    width: 100%;
+  }
+
+  .objecoes__colunas {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3.88%; /* 33 dos 850 do container */
+    width: 100%;
+    margin-top: 40px; /* poe o topo das colunas em y=122 */
+  }
+
+  /* 401 e 415 dos 854 da linha */
+  .objecoes__coluna:first-child {
+    flex: 0 0 47.18%; /* 401 de 850 */
+  }
+
+  .objecoes__coluna:last-child {
+    flex: 0 0 48.82%; /* 415 de 850 */
+  }
+
+  /* Os dois titulos nao estao na mesma altura no arquivo: o primeiro tem o
+     centro em y=140 e o segundo em y=156, porque o primeiro quebra em duas
+     linhas dentro da caixa de 36px e transborda para cima. */
+  .objecoes__titulo {
+    flex: none;
+    width: 96.26%; /* 386 dos 401 - e esta largura que forca a quebra */
+    margin-bottom: 56px;
+  }
+
+  .objecoes__coluna:last-child .objecoes__titulo {
+    width: 94.22%; /* 391 dos 415 */
+    padding-left: 5px;
+    margin-top: 16px;
+    margin-bottom: 43px;
+  }
+
+  .objecoes__coluna {
+    gap: 0;
+  }
+
+  .objecoes__resposta {
+    /* caixa de 252px no arquivo; o texto tem 240 e fica centrado nela */
+    min-height: 0;
+    height: 252px;
+  }
+
+  .objecoes__cta {
+    width: 337px;
+    margin-top: 76px;
+  }
+}
+
+/* ============================================================== BLOCO 6 ===
+   Depoimentos. As fotos redondas ficam por cima do topo do cartao, entao sao
+   o unico elemento fora do fluxo aqui.
+   ========================================================================== */
+
+.depoimentos {
+  padding: 59px 5.6% 50px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--azul-profundo) 40.562%,
+    var(--azul-acinzentado) 83.288%,
+    var(--azul-fundo-claro) 97.406%
+  );
+}
+
+.depoimentos .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimentos__titulo {
+  font-size: clamp(35px, calc(35px + 11 * (100vw - 375px) / 905), 46px);
+  line-height: clamp(39px, calc(39px + 9 * (100vw - 375px) / 905), 48px);
+  font-weight: 700;
+  text-align: center;
+  color: var(--branco);
+}
+
+.depoimentos__titulo em {
+  color: var(--amarelo);
+}
+
+.depoimentos__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  margin-top: 76px;
+}
+
+.depoimento {
+  position: relative;
+}
+
+.depoimento__foto {
+  position: absolute;
+  top: -29px;
+  right: 0;
+  z-index: 1;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+}
+
+.depoimento__cartao {
+  /* no mobile o texto do arquivo nasce 2px acima do que o padding de 13 daria */
+  padding: 11px 13px 15px;
+  /* borda por sombra: no Figma ela nao consome largura, e 2px a menos de
+     texto ja fazem o cartao mais longo ganhar uma linha */
+  box-shadow: inset 0 0 0 1px #d3d3d3;
+  border-radius: 8px;
+  background: #fdfdfd;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--azul-petroleo-escuro);
+}
+
+/* o cartao do arquivo comeca com uma linha vazia antes da citacao */
+.depoimento__vazio {
+  height: 20px;
+}
+
+.depoimento__autor {
+  margin-top: 20px; /* a linha em branco entre a citacao e a assinatura */
+  font-weight: 700;
+}
+
+.depoimento__cargo {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.depoimentos__cta {
+  width: 100%;
+  margin-top: 42px;
+}
+
+@media (min-width: 768px) {
+  .depoimentos {
+    padding: 76px 0 43px;
+  }
+
+  .depoimentos__lista {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    margin-top: 103px;
+  }
+
+  .depoimento {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .depoimento__cartao {
+    padding: 13px 12px;
+  }
+
+  .depoimento__foto {
+    top: -36px;
+    right: 9.54%; /* 19,5 dos 204,5 da coluna */
+  }
+
+  .depoimentos__cta {
+    width: 345px;
+    margin-top: 61px;
+  }
+}
+
+/* ============================================================== BLOCO 8 ===
+   As oito fases, em carrossel de rolagem horizontal - e assim que esta
+   desenhado: os cartoes seguem para fora da borda direita da tela.
+   ========================================================================== */
+
+.fases {
+  position: relative;
+  overflow: hidden;
+  padding: 37px 0 23px;
+  background-image: linear-gradient(to bottom, #00506d 0%, #00202b 50%, #023d53 100%);
+}
+
+.fases__intro,
+.fases__titulo,
+.fases__mergulhador,
+.fases__cta {
+  position: relative;
+  z-index: 2;
+}
+
+.fases__intro {
+  width: 84.53%; /* 317 de 375 (recuos de 29) */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--branco);
+}
+
+.fases__intro p + p {
+  margin-top: 20px; /* a linha em branco do arquivo */
+}
+
+.fases__destaque {
+  color: var(--amarelo);
+}
+
+.fases__mergulhador {
+  position: relative;
+  width: 267.214px;
+  height: 266px;
+  /* posicao por margem, e nao por translate: a animacao de flutuacao usa a
+     propriedade translate e anularia qualquer deslocamento horizontal dela */
+  margin: 44px 0 0;
+  margin-left: calc(50% - 130px);
+  overflow: hidden;
+}
+
+/* o arquivo tem 268x266, exatamente o tamanho da janela: sem escala nem
+   deslocamento o mergulhador aparece inteiro, como no Figma */
+.fases__mergulhador img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* o mergulhador flutua 40px para cima e 40px para baixo, devagar */
+@keyframes flutua-mergulhador {
+  from {
+    translate: 0 -40px;
+  }
+
+  to {
+    translate: 0 40px;
+  }
+}
+
+.fases__mergulhador {
+  animation: flutua-mergulhador 4s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fases__mergulhador {
+    animation: none;
+  }
+}
+
+.fases__titulo {
+  margin-top: 43px;
+  font-size: clamp(26px, calc(26px + 20 * (100vw - 375px) / 905), 46px);
+  line-height: clamp(30px, calc(30px + 18 * (100vw - 375px) / 905), 48px);
+  font-weight: 700;
+  text-align: center;
+  color: var(--branco);
+}
+
+.fases__titulo em {
+  color: var(--amarelo);
+}
+
+/* ---- carrossel ---- */
+
+.fases__carrossel {
+  margin-top: 61px;
+  overflow-x: auto;
+  overflow-y: clip;
+  /* a barra some; quem rola e o dedo, o trackpad ou o arrasto do mouse
+     (js/carrossel.js) */
+  scrollbar-width: none;
+  cursor: grab;
+  scroll-snap-type: x proximity;
+  /* sem isto o navegador encosta o primeiro cartao na borda ja no
+     carregamento e o recuo do design desaparece */
+  scroll-padding-left: 26px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.fases__carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+.fases__carrossel.esta-arrastando {
+  cursor: grabbing;
+  scroll-snap-type: none; /* o snap atrapalha enquanto o dedo/mouse arrasta */
+}
+
+.fases__carrossel.esta-arrastando .aula {
+  user-select: none;
+}
+
+.fases__trilho {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 419px;
+  padding-left: 26px;
+  padding-right: 220px;
+  width: max-content;
+}
+
+.aula {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  width: 280px;
+  height: 380px;
+  padding: 22px 23px;
+  border-radius: 25px;
+  background: var(--fundo);
+  color: var(--tinta);
+  scroll-snap-align: start;
+}
+
+.aula__topo {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  padding-left: 1px; /* o selo fica em x=24 e o cartao tem 23 de recuo */
+}
+
+.aula__selo {
+  flex: none;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 88, 116, 0.3);
+  border-radius: 8px;
+  background: var(--selo-fundo);
+  font-size: 16px;
+  line-height: 19.881px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  color: var(--tinta-titulo);
+  white-space: nowrap;
+}
+
+.aula__titulo {
+  flex: 1;
+  margin-top: 4px;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.44px;
+  text-align: right;
+  color: var(--tinta-titulo);
+  text-box: trim-both cap alphabetic;
+}
+
+.aula__texto {
+  margin-top: 21px; /* poe o texto em y=75 do cartao */
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  text-box: trim-both cap alphabetic;
+}
+
+.aula__texto--baixo {
+  margin-top: 31px; /* o primeiro cartao comeca o texto em y=85 */
+}
+
+.aula__texto p + p {
+  margin-top: 18px;
+}
+
+.fases__cta {
+  /* display:flex (e nao inline-flex) para a margem automatica centralizar */
+  display: flex;
+  width: 325px;
+  margin: 72px auto 0;
+}
+
+@media (min-width: 768px) {
+  .fases {
+    padding: 69px 0 0;
+  }
+
+  .fases__intro {
+    width: 84.94%; /* 722 dos 850 do container */
+  }
+
+  .fases__mergulhador {
+    margin-top: 19px;
+  }
+
+  .fases__titulo {
+    margin-top: 13px;
+  }
+
+  .fases__carrossel {
+    margin-top: 55px;
+    scroll-padding-left: max(26px, calc((100% - 850px) / 2));
+  }
+
+  /* o carrossel sangra ate a borda da tela de proposito, mas o primeiro
+     cartao alinha com o container */
+  .fases__trilho {
+    padding-left: max(26px, calc((100% - 850px) / 2));
+  }
+
+  .fases__cta {
+    width: 348px;
+    margin-top: 48px;
+    margin-bottom: 77px;
+    background: #e96100;
+  }
+}
+
+/* ============================================================== BLOCO 9 ===
+   Bonus. Cada cartao tem uma foto redonda que sobe 22px acima da borda -
+   sobreposicao real, por isso a foto sai do fluxo.
+   ========================================================================== */
+
+.bonus {
+  padding: 72px 22px 56px 25px;
+  background-image: linear-gradient(to bottom, #023d53 0%, #00202b 47.838%);
+  text-align: center;
+}
+
+.bonus__olho {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--branco);
+}
+
+.bonus__titulo-secao {
+  /* Instrument Sans Bold Italic - nao e a serifada */
+  margin-top: 19.2px; /* a linha em branco do arquivo */
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--amarelo);
+}
+
+.bonus__lista {
+  display: grid;
+  gap: 47px;
+  margin-top: 82px;
+}
+
+.bonus__cartao {
+  position: relative;
+  min-height: 293px;
+  padding: 174px 23px 20px;
+  background: rgba(0, 124, 140, 0.5);
+}
+
+.bonus__foto {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  translate: -50% 0;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.bonus__foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.bonus__titulo {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  color: #00fffd;
+  text-box: trim-both cap alphabetic;
+}
+
+.bonus__texto {
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--branco);
+}
+
+.bonus__cta {
+  width: 335px;
+  height: 41.721px;
+  max-width: 100%;
+  margin: 75px auto 0;
+  background: #e96100;
+}
+
+@media (min-width: 768px) {
+  .bonus {
+    padding: 72px 0 0;
+  }
+
+  .bonus__lista {
+    gap: 20px;
+    margin-top: 21px;
+  }
+
+  .bonus__lista {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    width: 100%;
+  }
+
+  .bonus__cartao:nth-child(-n + 2) {
+    min-height: 353px;
+  }
+
+  .bonus__cartao:nth-child(n + 3) {
+    min-height: 293px;
+  }
+
+  .bonus__cta {
+    margin-top: 73px;
+    margin-bottom: 75px;
+  }
+}
+
+/* ============================================================= BLOCO 10 ===
+   A oferta: coluna de argumentos + cartao laranja com o preco.
+   ========================================================================== */
+
+.oferta {
+  padding: 45px 5.6% 0;
+  background: var(--azul-profundo);
+}
+
+.oferta__logo {
+  width: 168px;
+  margin: 0 auto;
+}
+
+.oferta__caixa {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  max-width: 1252px;
+  margin: 24px auto 0;
+}
+
+.oferta__coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.oferta__olho {
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1.98px;
+  text-transform: uppercase;
+  color: var(--amarelo);
+}
+
+.oferta__titulo {
+  margin-top: 22px;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 600;
+  color: var(--branco);
+}
+
+.oferta__titulo em {
+  display: block;
+  margin-top: 0.88px;
+  font-size: 42px;
+  line-height: 1.2;
+  color: var(--amarelo);
+}
+
+@media (max-width: 767px) {
+  .oferta__titulo {
+    font-size: 1.4rem;
+  }
+
+  .oferta__titulo .serif-italico {
+    font-size: 3rem;
+  }
+}
+
+.oferta__itens {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(0, 124, 140, 0.5);
+}
+
+.oferta__itens li {
+  display: flex;
+  gap: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--azul-nevoa);
+}
+
+.oferta__itens span {
+  font-weight: 700;
+  color: var(--amarelo);
+}
+
+.garantia {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(0, 124, 140, 0.5);
+}
+
+.garantia__numero {
+  flex: none;
+  font-size: 44px;
+  line-height: 1;
+  color: var(--amarelo);
+}
+
+.garantia__corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 6.69px;
+}
+
+.garantia__titulo {
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 1.82px;
+  text-transform: uppercase;
+  color: var(--branco);
+}
+
+.garantia__texto {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--cinza-gaivota);
+}
+
+/* ---- cartao do preco ---- */
+
+.oferta__preco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  height: 436px; /* altura fixa no frame Mobile, com o conteudo centrado */
+  padding: 44px 40px;
+  background: var(--laranja);
+  text-align: center;
+}
+
+.oferta__acesso {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1.92px;
+  text-transform: uppercase;
+  color: var(--creme);
+}
+
+.oferta__valores {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.oferta__apenas {
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1.82px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.oferta__parcela span {
+  font-weight: 500;
+}
+
+.oferta__parcela {
+  /* 41px no mobile. No desktop o teto caiu de 56 para 47px: dentro do
+     container de 850 a coluna do preco tem ~369px em vez dos 440 do arquivo,
+     e em 56px o valor quebraria em duas linhas. */
+  font-size: clamp(41px, calc(42px + 5 * (100vw - 768px) / 512), 47px);
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: -1.96px;
+  color: var(--branco);
+}
+
+.oferta__avista {
+  font-size: 17px;
+  line-height: 1;
+  color: var(--creme);
+}
+
+.oferta__botao {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--azul-petroleo-escuro);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.82px;
+  color: #fff;
+}
+
+.oferta__bandeiras {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.oferta__bandeiras li {
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: var(--branco);
+}
+
+.oferta__hotmart {
+  font-size: 12px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (min-width: 768px) {
+  .oferta {
+    padding: 73px 0 0;
+  }
+
+  /* No desktop a garantia volta para baixo da lista, na coluna da esquerda;
+     no mobile ela fica depois do cartao de preco, como no frame Mobile. */
+  /* colunas em fr: nas larguras entre 768 e 1280 elas encolhem juntas em vez
+     de estourar a tela, e em 1280 caem exatamente nos 413 e 440 do arquivo */
+  .oferta__caixa {
+    display: grid;
+    grid-template-columns: 413fr 440fr;
+    grid-template-rows: auto auto;
+    /* dentro do container de 850 as colunas mantem a proporcao 413:440 do
+       arquivo, mas encolhem: o cartao do preco sai de 440 para ~369px */
+    max-width: 100%;
+    margin-top: 24px;
+    margin-inline: auto;
+    row-gap: 0; /* a folga da garantia ja vem da margem dela */
+    column-gap: 31px;
+    padding: 58px 32px 52px 72px;
+  }
+
+  .oferta__coluna {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .garantia {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .oferta__preco {
+    padding-inline: clamp(20px, 3.2vw, 40px);
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    text-align: left;
+  }
+}
+
+/* ============================================================= BLOCO 11 ===
+   Quem e a sua professora. Conteudo centrado na altura do bloco nos dois
+   frames; no desktop vira duas colunas, com a foto a direita.
+   ========================================================================== */
+
+.professora {
+  display: flex;
+  align-items: center;
+  min-height: 1190px;
+  padding-inline: 6.67%; /* 25 de 375 */
+  background: var(--azul-petroleo-escuro);
+}
+
+.professora__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  width: 100%;
+}
+
+.professora__titulo {
+  font-size: clamp(30px, calc(30px + 5 * (100vw - 375px) / 905), 35px);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--branco);
+  text-align: center;
+}
+
+.professora__bio {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--azul-nevoa);
+}
+
+.professora__bio p {
+  white-space: pre-wrap;
+}
+
+.professora__bio p + p {
+  margin-top: 20px; /* a linha em branco do arquivo */
+}
+
+.professora__cta {
+  width: 100%;
+}
+
+.professora__foto {
+  height: 427px;
+  border-radius: 17.333px;
+  overflow: hidden;
+  position: relative;
+}
+
+.professora__foto img {
+  position: absolute;
+  top: -15.64%;
+  left: -0.04%;
+  width: 100.04%;
+  height: 118.02%;
+  max-width: none;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .professora {
+    min-height: 593px;
+    padding-inline: 0;
+    justify-content: center;
+  }
+
+  .professora__conteudo {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+  }
+
+  /* No desktop a coluna de texto volta a ter titulo, bio e botao distribuidos
+     na altura da foto; no mobile a ordem do HTML (botao por ultimo) ja vale. */
+  .professora__conteudo {
+    display: grid;
+    grid-template-columns: 500fr 345fr; /* 514 com os -14 de sobreposicao */
+    grid-template-rows: auto auto auto;
+    align-content: space-between;
+    min-height: 443px;
+  }
+
+  .professora__titulo,
+  .professora__bio,
+  .professora__cta {
+    grid-column: 1;
+  }
+
+  .professora__bio {
+    width: 85.2%; /* 426 dos 500 da coluna */
+  }
+
+  .professora__cta {
+    width: 67.4%; /* 337 dos 500 */
+    max-width: 337px;
+  }
+
+  .professora__foto {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 345 / 443; /* em 1280 da os 443px do arquivo */
+  }
+}
+
+/* ========================================================= BLOCO / duvidas ==
+   FAQ. No Figma esta desenhado com todas as respostas abertas; aqui ele nasce
+   fechado, como combinado. Usa <details>/<summary>: o comportamento vem do
+   proprio HTML, sem script.
+   ========================================================================== */
+
+.duvidas {
+  padding-bottom: 36px;
+  background: var(--azul-profundo);
+}
+
+.duvidas__titulo {
+  padding-block: 47px 48px; /* poe a primeira barra em y=134 */
+  font-size: 39px;
+  line-height: 1;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: var(--laranja);
+}
+
+.duvida__pergunta {
+  min-height: 44px;
+  padding: 10px 5.6%;
+  background: #00171f;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--branco);
+  cursor: pointer;
+  list-style: none;
+}
+
+.duvida__pergunta::-webkit-details-marker {
+  display: none;
+}
+
+/* a barra escura sangra ate a borda; a linha de texto + seta fica no container */
+.duvida__linha {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.duvida__seta {
+  flex: none;
+  width: 15px;
+  height: 15px;
+  rotate: 90deg; /* fechado */
+  transition: rotate 0.15s ease;
+}
+
+details[open] .duvida__seta {
+  rotate: 270deg;
+}
+
+/* Abertura e fechamento suaves. O ::details-content e o wrapper implicito do
+   conteudo do <details>; o interpolate-size permite animar ate `auto`, que e
+   a altura que so o navegador conhece. Onde nao houver suporte, abre e fecha
+   na hora - o comportamento continua correto. */
+:root {
+  interpolate-size: allow-keywords;
+}
+
+.duvida details::details-content {
+  block-size: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.35s ease,
+    content-visibility 0.35s allow-discrete;
+}
+
+.duvida details[open]::details-content {
+  block-size: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .duvida details::details-content {
+    transition: none;
+  }
+}
+
+.duvida__resposta {
+  /* no mobile a coluna da resposta tem 312px, nao os 333 da pergunta */
+  padding: 14px 16% 13px 5.6%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--branco);
+}
+
+.duvida__resposta p + p {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .duvidas__titulo {
+    padding-block: 53px 45px;
+  }
+
+  /* a barra escura continua sangrando; quem centra o texto e o container */
+  .duvida__resposta {
+    padding-inline: 5.6%;
+  }
+
+  .duvida__resposta p {
+    max-width: 781px;
+  }
+}
+
+/* ================================================================ RODAPE ===
+   Assinatura, texto legal e credito. Medidas do frame desktop; no mobile o
+   texto legal ocupa mais linhas e o bloco cresce naturalmente.
+   ========================================================================== */
+
+.rodape {
+  padding: 48px 32px;
+  background: #00171f;
+  color: var(--agua);
+  text-align: center;
+}
+
+.rodape__marca {
+  display: flex;
+  flex-direction: column;
+  gap: 10.5px;
+  align-items: center;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 4.5px 0 7px;
+}
+
+.rodape__direitos {
+  font-size: 19.2px;
+  line-height: 23px;
+}
+
+.rodape__nome {
+  font-size: 14.6px;
+  line-height: 12.8px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.rodape__legal {
+  margin-top: 18px;
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.rodape__linha {
+  height: 1px;
+  margin: 27.2px 0 0;
+  border: 0;
+  background: var(--agua);
+}
+
+.rodape__assinatura {
+  margin-top: 1.7px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 56px;
+}
+
+.rodape__assinatura img {
+  width: 55.167px;
+  height: 16.679px;
+}
+
+@media (min-width: 768px) {
+  .rodape {
+    padding-inline: 20px;
+  }
+
+  .rodape__marca {
+    padding-inline: 22.66px 22.65px;
+  }
+
+  .rodape__linha {
+    margin-top: 50.5px;
+  }
+
+  .rodape__assinatura {
+    margin-top: 17.7px;
+  }
+}
+
+/* ============================================================== WHATSAPP ===
+   Botao flutuante, fixo no canto inferior direito. O pulso e um circulo
+   irmao que cresce e some por baixo do botao, em repeticao continua.
+   ========================================================================== */
+
+.whatsapp {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #25d366;
+  color: var(--branco);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  transition: scale 0.2s ease;
+}
+
+.whatsapp:hover,
+.whatsapp:focus-visible {
+  scale: 1.06;
+}
+
+.whatsapp__icone {
+  width: 32px;
+  height: 32px;
+}
+
+.whatsapp__pulso {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 50%;
+  background: #25d366;
+  animation: pulso-whatsapp 2.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
+@keyframes pulso-whatsapp {
+  from {
+    opacity: 0.55;
+    scale: 1;
+  }
+
+  to {
+    opacity: 0;
+    scale: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp__pulso {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .whatsapp {
+    right: 16px;
+    bottom: 16px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .whatsapp__icone {
+    width: 29px;
+    height: 29px;
+  }
+}

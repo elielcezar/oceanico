@@ -1,0 +1,134 @@
+const imgEllipse5 = "http://localhost:3845/assets/f0145ab6bbdea0970ff620c01dd68d57aaf6d828.png";
+const imgEllipse6 = "http://localhost:3845/assets/5da86cae4834c367ab7f0fa42518f5a2208976f8.png";
+const imgEllipse7 = "http://localhost:3845/assets/4e5601b4687b1cf3d61204ffe276cb6f495008d3.png";
+const imgEllipse8 = "http://localhost:3845/assets/c186765ab6e6047c517beb92fe6671a392605b49.png";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-gradient-to-b from-[#032b38] from-[40.562%] relative size-full to-[97.406%] to-[var(--coc\/azul-fundo,#ccf2ff)] via-[#6da4b7] via-[83.288%]" data-node-id="185:1835" data-name="BLOCO 6">
+      <div className="absolute content-stretch flex flex-col gap-[30px] items-center left-[41px] top-[212px] w-[333px]" data-node-id="185:1838" data-name="prova social">
+        <div className="content-stretch flex flex-col gap-[var(--iti\/spacer-horizontal,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="185:1839" data-name="prova">
+          <div className="bg-[var(--color\/grey\/99,#fdfdfd)] border-[length:var(--iti\/border-width,1px)] border-[var(--color\/grey\/83,#d3d3d3)] border-solid content-stretch flex flex-col items-start overflow-clip p-[13px] relative rounded-[var(--iti\/spacer-horizontal,8px)] shrink-0 w-full" data-node-id="185:1840" data-name="div.elementor-element">
+            <div className="relative shrink-0 w-full" data-node-id="185:1841" data-name="h2.elementor-heading-title">
+              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center relative size-full">
+                <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[0px] w-full whitespace-pre-wrap" data-node-id="185:1842" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="leading-[20px] mb-0 text-[14px]">Embora já tivesse alguma experiência na área, fiquei extremamente satisfeito com os insights e caminhos alternativos que você apontou. A inteligência artificial oferece múltiplas possibilidades, mas são as estratégias cuidadosamente planejadas que permitem ultrapassar expectativas, mesmo as mais otimistas. As estratégias fermentadas por você conduziram-me muito além do que eu imaginava possível.</p>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Marcos Cordiolli
+                  </p>
+                  <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[20px] text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Especialista em relações Governamentais. Ex-Presidente da Fundação Cultural de Curitiba
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[var(--iti\/spacer-horizontal,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="185:1843" data-name="prova">
+          <div className="bg-[var(--color\/grey\/99,#fdfdfd)] border-[length:var(--iti\/border-width,1px)] border-[var(--color\/grey\/83,#d3d3d3)] border-solid content-stretch flex flex-col items-start p-[13px] relative rounded-[var(--iti\/spacer-horizontal,8px)] shrink-0 w-full" data-node-id="185:1844" data-name="div.elementor-element">
+            <div className="relative shrink-0 w-full" data-node-id="185:1845" data-name="h2.elementor-heading-title">
+              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center relative size-full">
+                <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[0px] w-full whitespace-pre-wrap" data-node-id="185:1846" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Regular'] font-normal leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    O método Oceânico me ajudou a estruturar as ideias, filtrar o que é relevante e otimizar a produção de conteúdo. Na minha rotina de trabalho, isso é essencial para conectar pensamentos e informações e transformar tudo em materiais que comunicam, sem perder a minha essência. Hoje, consigo produzir muito mais e com qualidade, entregando conteúdos que geram valor sem me perder dos objetivos da produção.
+                  </p>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Vânia Nocchi
+                  </p>
+                  <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[20px] text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Advogada
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[var(--iti\/spacer-horizontal,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="185:1847" data-name="prova">
+          <div className="bg-[var(--color\/grey\/99,#fdfdfd)] border-[length:var(--iti\/border-width,1px)] border-[var(--color\/grey\/83,#d3d3d3)] border-solid content-stretch flex flex-col items-start p-[13px] relative rounded-[var(--iti\/spacer-horizontal,8px)] shrink-0 w-full" data-node-id="185:1848" data-name="div.elementor-element">
+            <div className="relative shrink-0 w-full" data-node-id="185:1849" data-name="h2.elementor-heading-title">
+              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center relative size-full">
+                <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[0px] w-full whitespace-pre-wrap" data-node-id="185:1850" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Regular'] font-normal leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>{`O curso da Manoela Leão é perfeito para quem ainda acha que "IA" para escrita, é um bicho de sete cabeças: ele desmistifica, explica passo a passo o que são essas tecnologias e ensina como interagir com elas. Tudo de maneira clara, simples e com aquele toque de bom humor que só a Manoela tem! A ideia que estrutura o curso é que as lAs não fazem tudo por nós, elas são parceiras criativas, prontas para sugerir ideias e ajudar a desenvolvê-las.`}</p>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Alexandre Agabiti Fernandez
+                  </p>
+                  <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[20px] text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Jornalista e tradutor
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[var(--iti\/spacer-horizontal,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="185:1851" data-name="prova">
+          <div className="bg-[var(--color\/grey\/99,#fdfdfd)] border-[length:var(--iti\/border-width,1px)] border-[var(--color\/grey\/83,#d3d3d3)] border-solid content-stretch flex flex-col items-start p-[13px] relative rounded-[var(--iti\/spacer-horizontal,8px)] shrink-0 w-full" data-node-id="185:1852" data-name="div.elementor-element">
+            <div className="relative shrink-0 w-full" data-node-id="185:1853" data-name="h2.elementor-heading-title">
+              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-center relative size-full">
+                <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[0px] w-full whitespace-pre-wrap" data-node-id="185:1854" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Regular'] font-normal leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Fiquei extremamente satisfeita com a experiência do curso. A aula foi muito bem explicada, com uma didática clara e acessível, excelente para quem está começando no assunto. Os exemplos de prompts apresentados foram muito úteis e mostraram como é possível desdobrá-los e adaptá-los para diferentes contextos e necessidades. Com certeza saí com mais do que insights práticos e aplicáveis: sai com confiança para explorar o uso da IA na escrita de forma criativa e estratégica. Recomendo!
+                  </p>
+                  <p className="leading-[20px] mb-0 text-[14px]">​</p>
+                  <p className="font-['Instrument_Sans:Bold'] font-bold leading-[20px] mb-0 text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Suellen Winter
+                  </p>
+                  <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[20px] text-[14px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Designer Editorial
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[0] left-[calc(100%-206px)] text-[#4ac8c8] text-[0px] text-center top-[59px] w-[334px]" data-node-id="185:1855" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[39px] mb-0 text-[35px] text-white">O que os outros</p>
+        <p className="font-['Instrument_Serif:Italic'] italic leading-[39px] text-[#ffd93b] text-[35px]">alunos estão dizendo</p>
+      </div>
+      <div className="absolute left-[calc(100%-100px)] size-[59px] top-[184px]" data-node-id="185:1856">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="59" src={imgEllipse5} width="59" />
+      </div>
+      <div className="absolute left-[calc(100%-100px)] size-[59px] top-[543px]" data-node-id="185:1857">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="59" src={imgEllipse6} width="59" />
+      </div>
+      <div className="absolute left-[calc(100%-113px)] size-[59px] top-[879px]" data-node-id="185:1858">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="59" src={imgEllipse7} width="59" />
+      </div>
+      <div className="absolute left-[calc(100%-100px)] size-[59px] top-[1214px]" data-node-id="185:1859">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="59" src={imgEllipse8} width="59" />
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center left-[calc(100%-207.5px)] px-[104px] py-[13px] top-[1635px] w-[333px]" data-node-id="185:1860" data-name="Botão Acesso">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I185:1860;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+          QUERO COMEÇAR JÁ
+        </p>
+        <div className="relative shrink-0 size-[20px]" data-node-id="I185:1860;15:221" data-name="Arrow Right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Azul Petróleo Escuro: #00394E, COC/Turquesa: #4AC8C8.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

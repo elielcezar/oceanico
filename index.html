@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conteúdo Oceânico — Manu Leão</title>
+    <meta name="description" content="Um método editorial para especialistas, profissionais liberais e comunicadores de marca transformarem conhecimento em conteúdo longo, autoral e duradouro.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/secoes.css">
+    <!-- marca que ha JS antes da primeira pintura: e essa classe que autoriza
+         o CSS a esconder os elementos que vao entrar com a rolagem -->
+    <script>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+
+    <header class="cabecalho" data-bloco="logo">
+      <!-- CTA: destino a definir -->
+      <div class="container">
+        <a class="cabecalho__logo" href="#">
+          <img src="assets/logo-conteudo-oceanico.svg" alt="Conteúdo Oceânico" width="168" height="49">
+        </a>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ===================================================== BLOCO 1 / hero -->
+      <section class="hero" data-bloco="bloco1">
+        <div class="container">
+          <div class="hero__texto">
+            <p class="olho hero__olho">— Sete fases entre o que você sabe e o conteúdo que constrói sua <b>autoridade</b>.</p>
+
+            <!-- O espaco depois de "conteudos" existe no arquivo do Figma e entra na
+            centralizacao da linha; por isso o h1 fica numa linha so, sem recuo,
+            com white-space: pre-wrap. -->
+            <h1 class="hero__titulo">Crie conteúdos <br>que tornem visível<br><em class="serif-italico">a sua capacidade</em></h1>
+
+            <p class="hero__descricao">Um método editorial para especialistas, profissionais liberais e comunicadores de marca transformarem conhecimento em conteúdo longo, autoral e duradouro: artigos, livros, podcasts, aulas, canais de vídeos, palestras.</p>
+
+            <div class="hero__acoes">
+              <!-- CTA: destino a definir -->
+              <a class="botao botao--laranja cta-oferta hero__cta" href="#oferta">
+                QUERO COMEÇAR
+                <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+              </a>
+              <!-- CTA: destino a definir (ancora para a secao das fases) -->
+              <a class="botao botao--contorno hero__cta-secundario" href="#fases">VER AS 8 FASES</a>
+            </div>
+
+            <p class="hero__assinatura"><b>Manu Leão</b> <span>EDITORA E ESPECIALISTA EM COMUNICAÇÃO</span></p>
+          </div>
+
+          <figure class="hero__foto">
+            <img src="assets/foto-manu-hero.webp" alt="Manu Leão apoiada em uma cadeira, olhando para a câmera">
+          </figure>
+        </div>
+      </section>
+
+      <!-- ===================================================== BLOCO 3 / curso -->
+      <section class="curso" data-bloco="bloco3">
+        <img class="curso__marca" src="assets/marca-dagua.svg" alt="" width="78" height="23">
+
+        <div class="container">
+          <div class="curso__descobrir">
+            <h2 class="curso__titulo" data-anima>Nesse curso,<br>você vai <em class="serif-italico">descobrir:</em></h2>
+
+            <div class="curso__colunas" data-anima="lista">
+              <figure class="curso__video">
+                <!-- comeca mudo e so carrega quando entra na tela (js/video.js):
+                     sao 7,8 MB, nao vale baixar para quem nunca chega ate aqui -->
+                <video
+                  data-toca-ao-ver
+                  src="assets/video.mp4"
+                  poster="assets/capa-video-algoritmo.png"
+                  muted
+                  playsinline
+                  controls
+                  preload="none"
+                  aria-label="Manu Leão: o que sobra quando o algoritmo para de entregar"></video>
+              </figure>
+
+              <div class="curso__pontos">
+                <ul class="pontos">
+                  <li class="pontos__item">
+                    <img class="pontos__seta" src="assets/seta-item-lista.svg" alt="" width="14" height="14">
+                    <p>Como transformar um conhecimento técnico e complexo em um conteúdo acessível, fluido e interessante.</p>
+                  </li>
+                  <li class="pontos__item">
+                    <img class="pontos__seta" src="assets/seta-item-lista.svg" alt="" width="14" height="14">
+                    <p>Como usar o sistema de conteúdo-mãe para transformar seu raciocínio em múltiplos formatos de conteúdo de profundidade espalhados por diferentes plataformas.</p>
+                  </li>
+                  <li class="pontos__item">
+                    <img class="pontos__seta" src="assets/seta-item-lista.svg" alt="" width="14" height="14">
+                    <p>Como construir e dominar sua Mídia Proprietária: o passo a passo para criar uma linha editorial e o conteúdo dos seus próprios canais para parar de ser refém das mudanças dos algoritmos das redes sociais.</p>
+                  </li>
+                  <li class="pontos__item">
+                    <img class="pontos__seta" src="assets/seta-item-lista.svg" alt="" width="14" height="14">
+                    <p>Como a Inteligência Artificial pode ser usada estrategicamente para potencializar sua criatividade e dar mais segurança e organização. </p>
+                  </li>
+                </ul>
+
+                <!-- CTA: destino a definir -->
+                <a class="botao botao--laranja cta-oferta curso__cta" href="#oferta">
+                  QUERO ME INSCREVER
+                  <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="curso__perfis">
+            <p class="olho curso__olho" data-anima>— O MOMENTO CERTO</p>
+            <h3 class="curso__pergunta" data-anima>POR QUE É FUNDAMENTAL APRENDER <br class="quebra-desktop">CONTEÚDOS LONGOS SE VOCÊ É:</h3>
+
+            <ul class="perfis" data-anima="lista">
+              <li class="perfil">
+                <span class="perfil__selo">PROFISSIONAL LIBERAL</span>
+                <p>O conteúdo de fôlego reduz a distância entre “não conheço essa pessoa” e “quero contratar essa pessoa”. Quando o cliente não enxerga diferencial técnico, ele escolhe pelo menor preço. A produção de conteúdo estratégico posiciona você como a  opção lógica para determinado problema.</p>
+              </li>
+              <li class="perfil">
+                <span class="perfil__selo">FUNCIONÁRIO</span>
+                <p>Se a empresa cortar custos amanhã e você for demitido, todos os projetos incríveis que você fez ficam no portfólio da empresa.  A audiência e a autoridade que você construiu no seu LinkedIn ou podcast vão com você para onde você for.</p>
+              </li>
+              <li class="perfil">
+                <span class="perfil__selo perfil__selo--apertado">PROFISSIONAL DE COMUNICAÇÃO</span>
+                <p>Conteúdo Editorial em mídias próprias é considerado o tipo mais difícil e mais relevante de marketing de conteúdo ao longo do tempo. Quem entende como sustentar projetos de Brand Publishing (marca como editora) deixa de atender demandas soltas e passa a pensar em projetos editorias</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="curso__agora" data-anima><b>O momento é agora!</b><br>A IA barateou a produção de conteúdo mediano. O mercado está sendo empurrado de volta para conteúdos mais profundos. </p>
+        </div>
+
+        <div class="curso__mergulhador" aria-hidden="true">
+          <img class="curso__mergulhador-foto" src="assets/mergulhador-computador.png" alt="">
+          <span class="curso__brilho"><img src="assets/brilho-mergulhador-desktop.svg" alt=""></span>
+        </div>
+      </section>
+
+      <!-- ======================================================== BLOCO 4 / IA -->
+      <section class="ia" data-bloco="bloco4">
+        <div class="container">
+          <h2 class="ia__titulo" data-anima>Inteligência Artificial<br><em class="serif-italico">no Conteúdo Oceânico</em></h2>
+
+          <div class="ia__texto" data-anima>
+            <p>A inteligência artificial entra nesse processo como ferramenta estratégica.</p>
+            <p>Ela amplia ângulos quando você precisa pensar grande, organiza material quando a dispersão trava o trabalho, confronta hipóteses quando o texto precisa de resistência, simula leitores diferentes para revelar pontos cegos.</p>
+            <p>O que ela não faz, e o método não terceiriza para ela, é decidir o que vale a pena dizer.</p>
+            <p>A gente parte da SUA inteligência, da SUA experiência e do SEU conhecimento e potencializa cada etapa do trabalho com um jeito inteligente de usar a IA.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================== BLOCO 5 / objecoes -->
+      <section class="objecoes" data-bloco="bloco5">
+        <div class="container">
+          <p class="olho objecoes__olho" data-anima>— PRA QUEM É</p>
+
+          <div class="objecoes__colunas" data-anima="lista">
+            <div class="objecoes__coluna">
+              <h2 class="objecoes__titulo">Se você se pegar pensando:</h2>
+              <ul class="objecoes__lista">
+                <li>Eu não tenho tempo.</li>
+                <li>Eu não tenho nada de especial para dizer.</li>
+                <li>Eu sei várias coisas, mas não sei transformá-las em conteúdo.</li>
+                <li>Tenho medo de me expor ou parecer pretensiosa<br><i>— especialmente as mulheres.</i></li>
+                <li>Não vejo retorno suficiente para justificar o esforço.</li>
+              </ul>
+            </div>
+
+            <div class="objecoes__coluna">
+              <h2 class="objecoes__titulo">Lembre-se de que:</h2>
+              <div class="objecoes__resposta">
+                <p>Toda semana você resolve problemas, toma decisões, explica conceitos, responde dúvidas, identifica erros, faz escolhas, testa caminhos e acumula repertório.</p>
+                <p>Isso já é matéria-prima intelectual. Mesmo que você não saiba (ainda) identificá-la. E esse é só o primeiro passo no Conteúdo Oceânico.</p>
+                <p><b>Pare de deixar seu conhecimento morrer no trabalho do dia a dia. Vai valer a pena investir de forma consistente em você.</b></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA: destino a definir -->
+          <a class="botao botao--laranja cta-oferta objecoes__cta" data-anima href="#oferta">
+            LIBERAR MEU ACESSO
+            <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+          </a>
+        </div>
+      </section>
+
+      <!-- ================================================ BLOCO 6 / depoimentos -->
+      <section class="depoimentos" data-bloco="bloco6">
+        <div class="container">
+          <h2 class="depoimentos__titulo" data-anima>O que os outros<br><em class="serif-italico">alunos estão dizendo</em></h2>
+
+          <ul class="depoimentos__lista" data-anima="lista">
+            <li class="depoimento">
+              <img class="depoimento__foto" src="assets/depoimento-marcos.png" alt="Marcos Cordiolli" width="59" height="59">
+              <blockquote class="depoimento__cartao">
+                <p class="depoimento__vazio" aria-hidden="true">&#8203;</p>
+                <p class="depoimento__texto">Embora já tivesse alguma experiência na área, fiquei extremamente satisfeito com os insights e caminhos alternativos que você apontou. A inteligência artificial oferece múltiplas possibilidades, mas são as estratégias cuidadosamente planejadas que permitem ultrapassar expectativas, mesmo as mais otimistas. As estratégias fermentadas por você conduziram-me muito além do que eu imaginava possível.</p>
+                <p class="depoimento__autor">Marcos Cordiolli</p>
+                <p class="depoimento__cargo">Especialista em relações Governamentais. Ex-Presidente da Fundação Cultural de Curitiba</p>
+              </blockquote>
+            </li>
+            <li class="depoimento">
+              <img class="depoimento__foto" src="assets/depoimento-vania.png" alt="Vânia Nocchi" width="59" height="59">
+              <blockquote class="depoimento__cartao">
+                <p class="depoimento__vazio" aria-hidden="true">&#8203;</p>
+                <p class="depoimento__texto">O método Oceânico me ajudou a estruturar as ideias, filtrar o que é relevante e otimizar a produção de conteúdo. Na minha rotina de trabalho, isso é essencial para conectar pensamentos e informações e transformar tudo em materiais que comunicam, sem perder a minha essência. Hoje, consigo produzir muito mais e com qualidade, entregando conteúdos que geram valor sem me perder dos objetivos da produção.</p>
+                <p class="depoimento__autor">Vânia Nocchi</p>
+                <p class="depoimento__cargo">Advogada</p>
+              </blockquote>
+            </li>
+            <li class="depoimento">
+              <img class="depoimento__foto" src="assets/depoimento-alexandre.png" alt="Alexandre Agabiti Fernandez" width="59" height="59">
+              <blockquote class="depoimento__cartao">
+                <p class="depoimento__vazio" aria-hidden="true">&#8203;</p>
+                <p class="depoimento__texto">O curso da Manoela Leão é perfeito para quem ainda acha que "IA" para escrita, é um bicho de sete cabeças: ele desmistifica, explica passo a passo o que são essas tecnologias e ensina como interagir com elas. Tudo de maneira clara, simples e com aquele toque de bom humor que só a Manoela tem! A ideia que estrutura o curso é que as lAs não fazem tudo por nós, elas são parceiras criativas, prontas para sugerir ideias e ajudar a desenvolvê-las.</p>
+                <p class="depoimento__autor">Alexandre Agabiti Fernandez</p>
+                <p class="depoimento__cargo">Jornalista e tradutor</p>
+              </blockquote>
+            </li>
+            <li class="depoimento">
+              <img class="depoimento__foto" src="assets/depoimento-suellen.png" alt="Suellen Winter" width="59" height="59">
+              <blockquote class="depoimento__cartao">
+                <p class="depoimento__vazio" aria-hidden="true">&#8203;</p>
+                <p class="depoimento__texto">Fiquei extremamente satisfeita com a experiência do curso. A aula foi muito bem explicada, com uma didática clara e acessível, excelente para quem está começando no assunto. Os exemplos de prompts apresentados foram muito úteis e mostraram como é possível desdobrá-los e adaptá-los para diferentes contextos e necessidades. Com certeza saí com mais do que insights práticos e aplicáveis: sai com confiança para explorar o uso da IA na escrita de forma criativa e estratégica. Recomendo!</p>
+                <p class="depoimento__autor">Suellen Winter</p>
+                <p class="depoimento__cargo">Designer Editorial</p>
+              </blockquote>
+            </li>
+          </ul>
+
+          <!-- CTA: destino a definir -->
+          <a class="botao botao--laranja cta-oferta depoimentos__cta" data-anima href="#oferta">
+            QUERO COMEÇAR JÁ
+            <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+          </a>
+        </div>
+      </section>
+
+      <!-- ================================================== BLOCO 8 / as 8 aulas -->
+      <section class="fases" id="fases" data-bloco="bloco8">
+        <div class="container">
+          <div class="fases__intro" data-anima>
+            <p>As fases do Conteúdo Oceânico reproduzem o processo de maturação de um projeto editorial.</p>
+            <p class="fases__destaque">Conteúdo Oceânico existe porque conteúdo com profundidade não nasce na superfície.</p>
+            <p>É preciso sondar o que existe, oxigenar possibilidades, dar estrutura, submetê-las à pressão, lapidar o que permanece, testar sua consistência e fazer com que cada conteúdo passe a alimentar um ecossistema maior.</p>
+          </div>
+
+          <figure class="fases__mergulhador" aria-hidden="true">
+            <img src="assets/mergulhador-bolhas.png" alt="">
+          </figure>
+
+          <h2 class="fases__titulo" data-anima>Entenda como <br class="quebra-mobile"><em class="serif-italico">mergulhar nos seus saberes</em><br>e fazer emergir uma obra:</h2>
+        </div>
+
+        <!-- rolagem horizontal: e assim que o carrossel esta desenhado no Figma,
+        cortando na borda direita da tela -->
+        <div class="fases__carrossel" data-arrasta>
+          <ul class="fases__trilho" data-anima="lista">
+            <li class="aula" style="--fundo:#ffffff; --tinta:#000000; --tinta-titulo:#015973; --selo-fundo:transparent">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 1</span>
+                <h3 class="aula__titulo">Fundamentos da IA</h3>
+              </div>
+              <div class="aula__texto aula__texto--baixo">
+                <p>A inteligência artificial tem um papel importante no Conteúdo Oceânico, mas ela não é o centro do método. Ela funciona como poderosa ferramenta que amplia sua capacidade de criar, organizar, tensionar, revisar e testar conteúdo.</p>
+                <p>O curso ensina primeiro os fundamentos da IA para que o aluno possa escolher e usar diferentes ferramentas com autonomia. Depois, esses conhecimentos são aplicados ao longo das fases do método, no momento em que são úteis.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#b6f5e3; --tinta:#000000; --tinta-titulo:#015973; --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 2</span>
+                <h3 class="aula__titulo">Sondagem</h3>
+              </div>
+              <div class="aula__texto">
+                <p>A Sondagem é a fase que impede o aluno de começar pelo lugar errado. Antes de pensar em pauta, roteiro ou produção, ele precisa reconhecer o território real de onde seu conteúdo pode nascer.</p>
+                <p>Ela é importante porque muitos especialistas partem diretamente da pergunta “sobre o que vou falar?”, quando ainda não compreenderam bem o que têm para oferecer, por que aquilo merece virar conteúdo, para quem estão falando e qual forma pode sustentar essa relação.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#80e1d8; --tinta:#000000; --tinta-titulo:#015973; --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 3</span>
+                <h3 class="aula__titulo">Oxigenação</h3>
+              </div>
+              <div class="aula__texto">
+                <p>Esta é a fase de gerar ideias sem medo e aprender a depois escolher com critério. A importância dessa fase está em combater uma tendência bastante concreta: começar a produzir cedo demais, normalmente a partir das soluções mais óbvias. Aqui as ideias começam a ganhar fôlego real.</p>
+                <p>Uma das potencialidades desta etapa é o trabalho com as skills que foram desenvolvidas  para provocar e organizar o processo criativo. Elas provocam uma grande explosão de ideias.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#4ac8c8; --tinta:#000000; --tinta-titulo:#015973; --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 4</span>
+                <h3 class="aula__titulo">Produção</h3>
+              </div>
+              <div class="aula__texto">
+                <p>A Produção é a fase em que as escolhas feitas anteriormente ganham forma concreta. Você transforma sua direção editorial em um projeto executável, definindo linha editorial, arquitetura, sumário, estrutura narrativa, tom e linguagem.</p>
+                <p>Você também transforma o que já foi construído em contexto persistente de trabalho: memorial, textos de referência, regras do projeto,  glossários e outros documentos passam a alimentar você e a IA que começam a operar dentro de um sistema editorial definido.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#007c8c; --tinta:#000000; --tinta-titulo:#00394e; --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 5</span>
+                <h3 class="aula__titulo">Pressão</h3>
+              </div>
+              <div class="aula__texto">
+                <p>O mais importante sobre a Pressão é que ela ensina a deixar de defender o próprio conteúdo e começar a testá-lo com um olhar de editor. O que está em jogo aqui é a coerência, a fluidez e a força narrativa.</p>
+                <p>É a fase da macroedição e onde se aprende a identificar blocos que não funcionam, redundâncias, digressões, promessas não cumpridas e pontas soltas, além de distinguir argumento, exemplo e prova e fazer a checagem rigorosa de fontes, dados e citações.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#005873; --tinta:#80e1d8; --tinta-titulo:rgba(128,225,216,0.6); --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 6</span>
+                <h3 class="aula__titulo">Nácar</h3>
+              </div>
+              <div class="aula__texto">
+                <p>A Nácar é a fase da microedição e da construção consciente do estilo. Se na Pressão o aluno verifica se o conteúdo se sustenta como um todo, aqui ele trabalha frase a frase, palavra a palavra, refinando léxico, sintaxe, semântica, ritmo, fluidez e recursos de linguagem. É também onde aprende a reconhecer e preservar sua voz autoral, usando técnicas narrativas e figuras de linguagem com intenção — e a evitar que o uso da IA pasteurize essa voz, especialmente pelo “sotaque de IA” e por estruturas importadas do inglês.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#032b38; --tinta:#80e1d8; --tinta-titulo:rgba(128,225,216,0.8); --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 7</span>
+                <h3 class="aula__titulo">Teste triplo</h3>
+              </div>
+              <div class="aula__texto">
+                <p>Neste momento o projeto entra na fase de validação. O conteúdo sai do olhar exclusivo de quem escreveu e é colocado à prova por diferentes perspectivas.</p>
+                <p>Com a técnica de Engenharia de Prompt Tree of Thoughts (ToT): três avaliadores simulados fazem diagnósticos, confrontam suas avaliações, descartam caminhos e chegam às correções que sobrevivem ao debate. Assim, a IA funciona como uma espécie de banca crítica, ajudando a revelar pontos cegos antes da publicação.</p>
+              </div>
+            </li>
+            <li class="aula" style="--fundo:#001e29; --tinta:#80e1d8; --tinta-titulo:#80e1d8; --selo-fundo:rgba(255, 255, 255, 0.4)">
+              <div class="aula__topo">
+                <span class="aula__selo">Aula 8</span>
+                <h3 class="aula__titulo">Ecossistema</h3>
+              </div>
+              <div class="aula__texto">
+                <p>Na prática, o Ecossistema faz duas coisas: desdobra o que já foi produzido e dá vida longa a cadeia de conteúdo.</p>
+                <p>Você aprende a extrair novos conteúdos do que já produziu e, principalmente, a usar cada projeto como ponto de partida para os próximos, criando uma cadeia editorial coerente e contínua. O resultado é uma rede de relações, ligada a um Conteúdo-mãe, que faz com que cada peça contribua para algo maior do que ela mesma. As ideias não param de circular.
+                  &lt;br aria-hidden /&gt;
+                  &lt;br aria-hidden /&gt;</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container">
+            <!-- CTA: destino a definir -->
+            <a class="botao botao--laranja cta-oferta fases__cta" data-anima href="#oferta">              
+              É PRA MIM
+              <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+            </a>
+          </div>
+        </section>
+
+        <!-- ==================================================== BLOCO 9 / bonus -->
+        <section class="bonus" data-bloco="bloco9">
+          <div class="container">
+            <p class="bonus__olho" data-anima>ALÉM DAS AULAS VOCÊ TAMBÉM TERÁ ACESSO À:</p>
+            <h2 class="bonus__titulo-secao" data-anima>Bônus exclusivos</h2>
+
+            <ul class="bonus__lista" data-anima="lista">
+              <li class="bonus__cartao">
+                <figure class="bonus__foto"><img src="assets/bonus-skills.png" alt=""></figure>
+                <h3 class="bonus__titulo">Skills de CRIATIVIDADE para IA</h3>
+                <p class="bonus__texto">Quatro habilidades de IA, que funcionam em conjunto, para expandir seu projeto. Baseadas em várias técnicas de criatividade, elas são treinadas para extrair as melhores ideias de VOCÊ. Ter novas inspirações com este direcionamento guiado é mais fácil, mais prazeroso e menos angustiante.</p>
+              </li>
+              <li class="bonus__cartao">
+                <figure class="bonus__foto"><img src="assets/bonus-glossario.jpg" alt=""></figure>
+                <h3 class="bonus__titulo">Glossário Editorial</h3>
+                <p class="bonus__texto">Quanto mais você usa termos corretos e linguagem especializada, mais a IA aprofunda a conversa com você. Com este glossário você aprende mais sobre formatos de textos, naturezas de escrita, tons, posições de enunciação, estratégias de abertura e progressões narrativas, cada termo com definição funcional e uso.</p>
+              </li>
+              <li class="bonus__cartao">
+                <figure class="bonus__foto"><img src="assets/bonus-live.png" alt=""></figure>
+                <h3 class="bonus__titulo">Live Tira Dúvida</h3>
+                <p class="bonus__texto">Encontros mensais ao vivo para acompanhamento, esclarecimento de dúvidas e refinamento do seu projeto.</p>
+              </li>
+              <li class="bonus__cartao">
+                <figure class="bonus__foto"><img src="assets/bonus-arquivos.png" alt=""></figure>
+                <h3 class="bonus__titulo">Arquivos das aulas</h3>
+                <p class="bonus__texto">Versões dos slides com textos, exemplos, esquemas visuais para consulta e revisão do que foi aprendido.</p>
+              </li>
+            </ul>
+
+            <!-- CTA: destino a definir -->
+            <a class="botao botao--laranja cta-oferta bonus__cta" data-anima href="#oferta">
+              LIBERE MEU ACESSO
+              <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+            </a>
+          </div>
+        </section>
+
+        <!-- =================================================== BLOCO 10 / oferta -->
+        <section class="oferta" id="oferta" data-bloco="bloco10">
+          <div class="container">
+            <img class="oferta__logo" data-anima src="assets/logo-conteudo-oceanico.svg" alt="Conteúdo Oceânico" width="168" height="49">
+
+            <div class="oferta__caixa" data-anima="lista">
+              <div class="oferta__coluna">
+                <p class="oferta__olho">A oferta</p>
+                <h2 class="oferta__titulo">Tenha reconhecimento pelo<br><em class="serif-italico">seu conhecimento.</em></h2>
+
+                <ul class="oferta__itens">
+                  <li><span aria-hidden="true">·</span>8 aulas gravadas com as fases do método</li>
+                  <li><span aria-hidden="true">·</span>4 bônus editoriais, incluindo lives mensais</li>
+                  <li><span aria-hidden="true">·</span>Acesso imediato por 1 ano</li>
+                </ul>
+              </div>
+
+              <div class="oferta__preco">
+                <p class="oferta__acesso">Acesso imediato por 1 ano</p>
+
+                <div class="oferta__valores">
+                  <p class="oferta__apenas">Por apenas</p>
+                  <p class="oferta__parcela"><span>12 ×</span> R$ 81,60</p>
+                  <p class="oferta__avista">ou R$ 789,00 à vista</p>
+                </div>
+
+                <!-- CTA: destino a definir (checkout da Hotmart) -->
+                <a class="oferta__botao" href="https://pay.hotmart.com/O99613223F?off=46fdys93&hotfeature=51&_hi=eyJzaWQiOiI5MTMyODhhM2I5OWQ0OWUwOGM4YTEyNzg5MmIzODZkOSIsImNpZCI6IjE3ODcwNTU0NTczMDE3NzU3MDQ0NjY5NTA2NjMwMDAiLCJiaWQiOiIxNzg3MDU1NDU3MzAxNzc1NzA0NDY2OTUwNjYzMDAwIn0=.1787055496918&bid=1787055500382" target="_blank">
+                  LIBERE MEU ACESSO
+                  <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+                </a>
+
+                <ul class="oferta__bandeiras"><li>VISA</li><li>MASTERCARD</li><li>AMEX</li><li>PIX</li><li>PAYPAL</li><li>GOOGLE PAY</li><li>APPLE PAY</li></ul>
+
+                <p class="oferta__hotmart">Pagamento processado pela Hotmart.</p>
+              </div>
+
+              <div class="garantia">
+                <span class="garantia__numero serif-italico" aria-hidden="true">7</span>
+                <div class="garantia__corpo">
+                  <p class="garantia__titulo">Garantia incondicional de 7 dias</p>
+                  <p class="garantia__texto">Você tem, por lei, o direito de testar o produto durante 7 dias. Se dentro deste período você achar que esse curso não é pra você, basta cancelar diretamente na sua plataforma da Hotmart, sem precisar justificar.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================================================ BLOCO 11 / professora -->
+        <section class="professora" data-bloco="bloco11">
+          <div class="container">
+            <div class="professora__conteudo" data-anima="lista">
+              <h2 class="professora__titulo">Quem é a sua professora?</h2>
+
+              <div class="professora__bio">
+                <p>Manu Leão atua há três décadas na interseção entre comunicação, cultura e educação. É editora, curadora literária e designer.</p>
+                <p>Com formação em Artes Visuais e especialização em Psicanálise, lidera a Carlô Comunicação e Cultura, agência especializada em Brand Publishing e mídias proprietárias há 20 anos.</p>
+                <p>Ao longo da carreira, criou e coordenou revistas, livros, eventos literários, podcasts, portal de notícias e campanhas estratégicas de conteúdo para marcas como Assaí Atacadista, Volvo, Boticário, Bergerson Joias, Matte Leão, Palácio do Planalto, Ministério da Educação, Universidade de Salamanca (Espanha) e UFPR.</p>
+              </div>
+
+              <figure class="professora__foto">
+                <img src="assets/foto-manu-professora.jpg" alt="Manu Leão sentada em uma poltrona">
+              </figure>
+
+              <!-- CTA: destino a definir -->
+              <a class="botao botao--laranja cta-oferta professora__cta" href="#oferta">
+                QUERO COMEÇAR JÁ
+                <img class="botao__seta" src="assets/seta-direita.svg" alt="" width="20" height="20">
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====================================================== BLOCO / duvidas -->
+        <section class="duvidas" data-bloco="bloco-final">
+          <div class="container">
+            <h2 class="duvidas__titulo" data-anima>Possíveis dúvidas:</h2>
+          </div>
+
+          <ul class="duvidas__lista" data-anima="lista">
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>O método funciona para qualquer área de atuação?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Sim. O Conteúdo Oceânico é um método editorial, por isso pode ser aplicado a diferentes áreas de conhecimento e formatos. Ele foi pensado tanto para especialistas e profissionais liberais que querem transformar seu conhecimento em autoridade quanto para profissionais de comunicação que desenvolvem conteúdo para outras pessoas e marcas.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>O curso ensina a escrever ou a criar e estruturar projetos de conteúdo?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Os dois, mas o escopo é maior do que escrita. Você aprende a transformar conhecimento em um projeto editorial: encontrar e selecionar temas, definir intenção e público, desenvolver ideias, criar linha e arquitetura editorial, estruturar e produzir o conteúdo, editar, lapidar a linguagem, testar e planejar seus desdobramentos. A escrita é trabalhada como parte desse processo.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>O Conteúdo Oceânico também serve para quem cria conteúdo para clientes ou empresas?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Sim. O método pode ser usado tanto para construir Thought Leadership para profissionais quanto projetos de Brand Publishing para marcas. Jornalistas, redatores, estrategistas, editores e outros profissionais de comunicação podem aplicá-lo na criação de livros, revistas, podcasts, vídeos, artigos, blogs, aulas e outros projetos para seus clientes.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>Preciso assinar ChatGPT, Claude ou alguma outra plataforma?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Não há uma plataforma de IA obrigatória. O curso ensina os fundamentos necessários para que você entenda as diferenças entre as ferramentas e possa escolher aquelas que fazem sentido para seu trabalho. Também disponibilizamos agentes, skills e materiais de apoio para facilitar a aplicação prática do método.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>Como recebo o acesso depois da compra?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Após a confirmação do pagamento, você recebe as instruções de acesso ao curso e aos materiais no e-mail do cadastro. Caso já tenha conta na Hotmart, também encontrará o curso por lá:</p>
+                    <p>1. Faça login na Hotmart clicando em &#x27;Entrar&#x27;.</p>
+                    <p>2. Acesse o menu lateral, clique em &#x27;Minha conta&#x27;.</p>
+                    <p>3. Clique em &#x27;Minhas compras&#x27; e procure o curso do Conteúdo Oceânico.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+            <li class="duvida">
+              <details>
+                <summary class="duvida__pergunta">
+                  <span class="container duvida__linha">
+                    <span>E se eu perceber que o curso não é para mim?</span>
+                    <img class="duvida__seta" src="assets/seta-acordeao.svg" alt="" width="15" height="15">
+                  </span>
+                </summary>
+                <div class="duvida__resposta">
+                  <div class="container">
+                    <p>Você pode solicitar o cancelamento e o reembolso dentro do prazo de garantia da compra de 7 dias, dentro da plataforma da Hotmart, sem complicações, sem precisar justificar.</p>
+                  </div>
+                </div>
+              </details>
+            </li>
+          </ul>
+        </section>
+
+      </main>
+
+      <footer class="rodape" data-bloco="rodape">
+        <div class="container">
+          <div class="rodape__interior" data-anima="lista">
+            <div class="rodape__marca">
+              <p class="rodape__direitos">Todos os direitos reservados ©</p>
+              <p class="rodape__nome">conteúdo oceânico</p>
+            </div>
+
+            <p class="rodape__legal">Ao interagir nesta página, o usuário declara estar ciente e de acordo com os presentes Termos de Uso e com a Política de Privacidade, autorizando o tratamento de seus dados pessoais nos termos da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados – LGPD), exclusivamente para finalidades relacionadas à comunicação, marketing, envio de conteúdos informativos e ofertas comerciais. Ao informar seu e-mail, o usuário autoriza o envio de comunicações promocionais, publicitárias e institucionais por meios digitais, podendo solicitar o descadastramento a qualquer momento. Este site não possui qualquer vínculo, afiliação ou endosso com Facebook, Instagram ou empresas do grupo Meta Platforms, Inc., sendo tais plataformas utilizadas exclusivamente para fins de veiculação de anúncios.</p>
+
+            <hr class="rodape__linha">
+
+            <p class="rodape__assinatura">
+              Desenvolvida por
+              <img src="assets/logo-carlo.svg" alt="Carlô" width="55" height="17">
+            </p>
+          </div>
+        </div>
+      </footer>
+
+  
+    <a class="whatsapp" href="https://wa.me/554191049664" target="_blank" rel="noopener" data-flutuante aria-label="Falar pelo WhatsApp">
+      <span class="whatsapp__pulso" aria-hidden="true"></span>
+      <svg class="whatsapp__icone" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/>
+      </svg>
+    </a>
+
+    <script src="js/carrossel.js" defer></script>
+    <script src="js/animacoes.js" defer></script>
+    <script src="js/video.js" defer></script>
+  </body>
+  </html>
+

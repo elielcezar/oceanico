@@ -1,0 +1,225 @@
+const imgMergulhador = "http://localhost:3845/assets/2c76424aa0540dd40f217403c26b749cab098602.png";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+const imgEllipse1 = "http://localhost:3845/assets/2aaad7d64b5d82ac22c0f7db9d685d9798a4ba4e.svg";
+const imgEllipse2 = "http://localhost:3845/assets/5ec6c070fc34af2ec88ee57b23f0d3131547c629.svg";
+const imgEllipse3 = "http://localhost:3845/assets/43bf5ae3b049c03bbc2bd7dd907d36303d3953a3.svg";
+const imgEllipse4 = "http://localhost:3845/assets/b8d0fb6b14ef7774c1a41c65786a3a6c6b7a110a.svg";
+const imgVector2 = "http://localhost:3845/assets/bfd05f6bd1bdbadcc2e954f8f644a8eb4e1bc23e.svg";
+const imgVector1 = "http://localhost:3845/assets/b560494743acc3fb642f710b6518cd8006961d53.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-gradient-to-b from-[#00506d] relative size-full to-[#023d53] via-1/2 via-[#00202b]" data-node-id="134:6375" data-name="BLOCO 8">
+      <div className="absolute content-stretch flex gap-[10px] h-[419px] items-center left-0 overflow-x-auto overflow-y-clip pl-[213px] pr-[220px] top-[658px] w-[1280px]" data-node-id="134:6379" data-name="Carrossel aulas">
+        <div className="bg-white h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6380">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-none left-[99px] right-[23px] text-[#015973] text-[22px] text-right top-[26.5px] tracking-[-0.44px]" data-node-id="134:6381" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Fundamentos da IA
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-[23px] right-[23px] text-[13px] text-black top-[85px] whitespace-pre-wrap" data-node-id="134:6382" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">A inteligência artificial tem um papel importante no Conteúdo Oceânico, mas ela não é o centro do método. Ela funciona como poderosa ferramenta que amplia sua capacidade de criar, organizar, tensionar, revisar e testar conteúdo.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">O curso ensina primeiro os fundamentos da IA para que o aluno possa escolher e usar diferentes ferramentas com autonomia. Depois, esses conhecimentos são aplicados ao longo das fases do método, no momento em que são úteis.</p>
+          </div>
+          <div className="absolute border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6383">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#015973] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6384" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 1</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#b6f5e3] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6385">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[#015973] text-[22px] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6386" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Sondagem
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[13px] text-black top-[75px] whitespace-pre-wrap" data-node-id="134:6387" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">A Sondagem é a fase que impede o aluno de começar pelo lugar errado. Antes de pensar em pauta, roteiro ou produção, ele precisa reconhecer o território real de onde seu conteúdo pode nascer.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">Ela é importante porque muitos especialistas partem diretamente da pergunta “sobre o que vou falar?”, quando ainda não compreenderam bem o que têm para oferecer, por que aquilo merece virar conteúdo, para quem estão falando e qual forma pode sustentar essa relação.</p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6388">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#015973] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6389" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 2</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#80e1d8] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6390">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[#015973] text-[22px] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6391" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Oxigenação
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[13px] text-black top-[75px] whitespace-pre-wrap" data-node-id="134:6392" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">Esta é a fase de gerar ideias sem medo e aprender a depois escolher com critério. A importância dessa fase está em combater uma tendência bastante concreta: começar a produzir cedo demais, normalmente a partir das soluções mais óbvias. Aqui as ideias começam a ganhar fôlego real.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px] mb-0">{`Uma das potencialidades desta etapa é o trabalho com as skills que foram desenvolvidas  para provocar e organizar o processo criativo. Elas provocam uma grande explosão de ideias.`}</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">​</p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6393">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#015973] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6394" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 3</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#4ac8c8] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6395">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[#015973] text-[22px] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6396" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Produção
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[13px] text-black top-[75px] whitespace-pre-wrap" data-node-id="134:6397" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">A Produção é a fase em que as escolhas feitas anteriormente ganham forma concreta. Você transforma sua direção editorial em um projeto executável, definindo linha editorial, arquitetura, sumário, estrutura narrativa, tom e linguagem.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">{`Você também transforma o que já foi construído em contexto persistente de trabalho: memorial, textos de referência, regras do projeto,  glossários e outros documentos passam a alimentar você e a IA que começam a operar dentro de um sistema editorial definido.`}</p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6398">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#015973] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6399" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 4</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#007c8c] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6400">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[#00394e] text-[22px] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6401" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Pressão
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[13px] text-black top-[75px] whitespace-pre-wrap" data-node-id="134:6402" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">O mais importante sobre a Pressão é que ela ensina a deixar de defender o próprio conteúdo e começar a testá-lo com um olhar de editor. O que está em jogo aqui é a coerência, a fluidez e a força narrativa.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">É a fase da macroedição e onde se aprende a identificar blocos que não funcionam, redundâncias, digressões, promessas não cumpridas e pontas soltas, além de distinguir argumento, exemplo e prova e fazer a checagem rigorosa de fontes, dados e citações.</p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6403">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6404" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 5</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#005873] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6405">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[22px] text-[rgba(128,225,216,0.6)] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6406" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Nácar
+          </p>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[18px] left-[23px] right-[23px] text-[#80e1d8] text-[13px] top-[75px]" data-node-id="134:6407" style={{ fontVariationSettings: '"wdth" 100' }}>
+            A Nácar é a fase da microedição e da construção consciente do estilo. Se na Pressão o aluno verifica se o conteúdo se sustenta como um todo, aqui ele trabalha frase a frase, palavra a palavra, refinando léxico, sintaxe, semântica, ritmo, fluidez e recursos de linguagem. É também onde aprende a reconhecer e preservar sua voz autoral, usando técnicas narrativas e figuras de linguagem com intenção — e a evitar que o uso da IA pasteurize essa voz, especialmente pelo “sotaque de IA” e por estruturas importadas do inglês.
+          </p>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6408">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#00394e] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6409" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 6</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#032b38] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6410">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[22px] text-[rgba(128,225,216,0.8)] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6411" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Teste triplo
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[#80e1d8] text-[13px] top-[75px] whitespace-pre-wrap" data-node-id="134:6412" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">Neste momento o projeto entra na fase de validação. O conteúdo sai do olhar exclusivo de quem escreveu e é colocado à prova por diferentes perspectivas.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">Com a técnica de Engenharia de Prompt Tree of Thoughts (ToT): três avaliadores simulados fazem diagnósticos, confrontam suas avaliações, descartam caminhos e chegam às correções que sobrevivem ao debate. Assim, a IA funciona como uma espécie de banca crítica, ajudando a revelar pontos cegos antes da publicação.</p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6413">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#032b38] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6414" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 7</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#001e29] h-[380px] relative rounded-[25px] shrink-0 w-[280px]" data-node-id="134:6415">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[30px] left-[114px] right-[22.78px] text-[#80e1d8] text-[22px] text-right top-[26px] tracking-[-0.44px]" data-node-id="134:6416" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Ecossistema
+          </p>
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium h-[211px] leading-[0] left-[23px] right-[23px] text-[#80e1d8] text-[13px] top-[75px] whitespace-pre-wrap" data-node-id="134:6417" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[18px] mb-0">Na prática, o Ecossistema faz duas coisas: desdobra o que já foi produzido e dá vida longa a cadeia de conteúdo.</p>
+            <p className="leading-[18px] mb-0">​</p>
+            <p className="leading-[18px]">
+              Você aprende a extrair novos conteúdos do que já produziu e, principalmente, a usar cada projeto como ponto de partida para os próximos, criando uma cadeia editorial coerente e contínua. O resultado é uma rede de relações, ligada a um Conteúdo-mãe, que faz com que cada peça contribua para algo maior do que ela mesma. As ideias não param de circular.
+              <br aria-hidden />
+              <br aria-hidden />
+            </p>
+          </div>
+          <div className="absolute bg-[rgba(255,255,255,0.4)] border border-[rgba(0,88,116,0.3)] border-solid content-stretch flex items-center justify-center left-[24px] px-[10px] py-[5px] rounded-[8px] top-[22px]" data-node-id="134:6418">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[#001e29] text-[16px] text-center tracking-[-0.32px] whitespace-nowrap" data-node-id="134:6419" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Aula 8</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute flex h-[1251px] items-center justify-center mix-blend-color-burn right-[-26px] top-[-7px] w-[632px]" data-node-id="135:6869">
+        <div className="flex-none rotate-180">
+          <div className="h-[1251px] relative w-[632px]" style={{ backgroundImage: "linear-gradient(263.7455049932602deg, rgba(217, 217, 217, 0) 7.817%, rgb(0, 30, 41) 91.087%)" }} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#e96100] content-stretch flex gap-[10px] h-[42px] items-center justify-center left-1/2 px-[104px] py-[13px] top-[1125px] w-[348px]" data-node-id="134:6376" data-name="Botão Acesso">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6376;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+          É PRA MIM
+        </p>
+        <div className="relative shrink-0 size-[20px]" data-node-id="I134:6376;15:221" data-name="Arrow Right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 [text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-[calc(50%+1px)] text-[16px] text-[color:var(--branco,white)] text-center top-[69px] w-[722px] whitespace-pre-wrap" data-node-id="134:6377" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[20px] mb-0">As fases do Conteúdo Oceânico reproduzem o processo de maturação de um projeto editorial.</p>
+        <p className="leading-[20px] mb-0">​</p>
+        <p className="leading-[20px] mb-0 text-[#ffd93b]">{`Conteúdo Oceânico existe porque conteúdo com profundidade não nasce na superfície. `}</p>
+        <p className="leading-[20px] mb-0">​</p>
+        <p className="leading-[20px]">É preciso sondar o que existe, oxigenar possibilidades, dar estrutura, submetê-las à pressão, lapidar o que permanece, testar sua consistência e fazer com que cada conteúdo passe a alimentar um ecossistema maior.</p>
+      </div>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[0] left-1/2 text-[#4ac8c8] text-[0px] text-center top-[507px] w-[1280px] whitespace-pre-wrap" data-node-id="184:1515" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="mb-0 text-[46px]">
+          <span className="leading-[48px] text-white">{`Entenda como `}</span>
+          <span className="[word-break:break-word] font-['Instrument_Serif:Italic'] italic leading-[48px] text-[#ffd93b]">{`mergulhar nos seus saberes `}</span>
+        </p>
+        <p className="leading-[48px] text-[46px] text-white">e fazer emergir uma obra:</p>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%+18px)] top-[228px]" data-node-id="134:6420" data-name="mergulhador bolhinha">
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+18px)] top-[228px]" data-node-id="134:6421">
+          <div className="-translate-x-1/2 absolute flex h-[266px] items-center justify-center left-[calc(50%+18px)] top-[228px] w-[267.214px]" data-node-id="134:6422">
+            <div className="-scale-y-100 flex-none rotate-180">
+              <div className="h-[266px] relative w-[267.214px]" data-name="mergulhador">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                  <img alt="" className="absolute h-[155.96%] left-0 max-w-none top-[-31.06%] w-full" src={imgMergulhador} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute left-[calc(60%-51.08px)] size-[9.408px] top-[296.29px]" data-node-id="134:6423">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse1} />
+          </div>
+          <div className="-translate-x-1/2 absolute left-[calc(60%-44.72px)] size-[5.534px] top-[276.93px]" data-node-id="134:6424">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse2} />
+          </div>
+          <div className="-translate-x-1/2 absolute left-[calc(60%-42.5px)] size-[4.427px] top-[313.45px]" data-node-id="134:6425">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse3} />
+          </div>
+          <div className="-translate-x-1/2 absolute h-[32.098px] left-[calc(50%+72.08px)] top-[257.56px] w-[10.792px]" data-node-id="134:6426">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse4} />
+          </div>
+          <div className="-translate-x-1/2 absolute flex h-[34.771px] items-center justify-center left-[calc(70%-157.16px)] mix-blend-hard-light top-[348.83px] w-[36.51px]" data-node-id="134:6428">
+            <div className="-scale-y-100 flex-none">
+              <div className="h-[34.771px] relative w-[36.51px]">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+              </div>
+            </div>
+          </div>
+          <div className="-translate-x-1/2 absolute flex h-[133.869px] items-center justify-center left-[calc(50%+18.43px)] mix-blend-hard-light top-[308.84px] w-[141.693px]" data-node-id="134:6427">
+            <div className="-rotate-90 -scale-y-100 flex-none">
+              <div className="h-[141.693px] relative w-[133.869px]">
+                <div className="absolute inset-[-9.17%_-9.71%]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector1} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Preto: #000000, COC/Branco: #FFFFFF, COC/Verde Menta: #B6F5E3, COC/Turquesa Claro: #80E1D8, COC/Turquesa: #4AC8C8, COC/Azul Petróleo Escuro: #00394E, COC/Cerceta: #007C8C, COC/Azul Petróleo Médio: #005873.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

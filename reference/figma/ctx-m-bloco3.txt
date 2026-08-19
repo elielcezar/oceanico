@@ -1,0 +1,190 @@
+const imgRectangle6 = "http://localhost:3845/assets/54867ae33b5a07447e790cdb0e8184b6ca88a671.png";
+const imgImage5 = "http://localhost:3845/assets/3dc5d5751373b974807d571bd94cc4018def7ba8.png";
+const imgVector1 = "http://localhost:3845/assets/98373fc9739b0d689923df1b2707874a11d7e58c.svg";
+const imgVector = "http://localhost:3845/assets/3ed0359c39221f6365688ec3ea34e82778365bd8.svg";
+const imgVector2 = "http://localhost:3845/assets/c7e8941b4c6001789065c4514d5882d796ae55ac.svg";
+const imgVector3 = "http://localhost:3845/assets/7bc8ecbd57585829a1fa95ef86868cb3e35292b5.svg";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-gradient-to-b from-[6.259%] from-[var(--coc\/azul-fundo,#ccf2ff)] relative size-full to-[#032b38] to-[68.54%] via-[#6da4b7] via-[42.3%]" data-node-id="176:1525" data-name="BLOCO 3">
+      <div className="absolute bottom-[-0.33px] contents left-[8px]" data-node-id="176:1526" data-name="mergulhador computador">
+        <div className="-translate-x-1/2 absolute bottom-[-0.33px] h-[291.331px] left-[187.34px] w-[358.686px]" data-node-id="176:1527">
+          <img alt="" className="absolute inset-0 max-w-none mix-blend-multiply object-bottom pointer-events-none size-full" src={imgRectangle6} />
+        </div>
+        <div className="absolute h-[233.802px] mix-blend-hard-light right-[49.07px] top-[2356px] w-[216.935px]" data-node-id="176:1528">
+          <div className="absolute inset-[-4.35%_-4.69%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector1} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[0] left-[188px] text-[#ffd93b] text-[18.288px] text-center top-[2230px] w-[318px]" data-node-id="176:1529" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[normal] mb-0">O momento é agora!</p>
+        <p className="font-['Instrument_Sans:Medium'] font-medium leading-[normal]" style={{ fontVariationSettings: '"wdth" 100' }}>{`A IA barateou a produção de conteúdo mediano. O mercado está sendo empurrado de volta para conteúdos mais profundos. `}</p>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start left-[189.5px] top-[757px] w-[329px]" data-node-id="176:1545">
+        <div className="h-[466px] relative shrink-0 w-[333px]" data-node-id="185:1744" data-name="image 5">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center left-[181px] max-w-[390px] pt-[1.448px] top-[-2.18px] w-[78px]" data-node-id="176:1548" data-name="div.elementor-element">
+        <div className="aspect-[78/22.77372169494629] content-stretch flex items-center justify-center max-w-[78px] overflow-clip relative shrink-0" data-node-id="176:1549" data-name="div-prioli.svg">
+          <div className="h-[22.774px] opacity-[var(--opacity\/100,1)] overflow-clip relative shrink-0 w-[78px]" data-node-id="176:1550" data-name="Component 1">
+            <div className="absolute inset-[0_0.29%_0.86%_0] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1550;20:8037" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+            </div>
+            <div className="absolute inset-[39.66%_43.39%_38.31%_43.74%] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1550;20:8038" data-name="Vector">
+              <div className="absolute inset-[-15%_-7.5%_-21.21%_-7.5%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector2} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[33px] items-center justify-center left-[40px] right-[40px] top-[50px]" data-node-id="176:1551" data-name="div.elementor-element">
+        <div className="content-stretch flex flex-col items-center justify-center max-w-[351px] relative shrink-0 w-[351px]" data-node-id="176:1552" data-name="div.elementor-element">
+          <div className="content-stretch flex flex-col items-center pl-[32px] pr-[23.64px] relative shrink-0 w-[350px]" data-node-id="176:1553" data-name="h2.elementor-heading-title">
+            <div className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[0] relative shrink-0 text-[#00394e] text-[0px] w-full" data-node-id="176:1554" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[39px] mb-0 text-[38px]">Nesse curso,</p>
+              <p className="text-[38px]">
+                <span className="leading-[39px]">{`você vai `}</span>
+                <span className="[word-break:break-word] font-['Instrument_Serif:Italic'] italic leading-[39px]">descobrir:</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[23px] h-[449px] items-start relative shrink-0 w-[333px]" data-node-id="176:1555">
+          <div className="content-stretch flex flex-col items-start max-w-[351px] relative shrink-0 w-[351px]" data-node-id="176:1556" data-name="div.elementor-element">
+            <div className="content-stretch flex flex-col gap-[var(--item-spacing\/14_4,14.399999618530273px)] h-[64px] items-start relative shrink-0 w-[349.5px]" data-node-id="176:1557" data-name="ul.elementor-icon-list-items">
+              <div className="content-stretch flex h-[64px] isolate items-center relative shrink-0 w-full" data-node-id="176:1558" data-name="li.elementor-icon-list-item">
+                <div className="content-stretch flex h-[52px] items-start pr-[15.5px] relative shrink-0 z-[2]" data-node-id="176:1559" data-name="span.elementor-icon-list-icon">
+                  <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="176:1560" data-name="Component 1">
+                    <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1560;20:8032" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[320px] z-[1]" data-node-id="176:1561" data-name="span.elementor-icon-list-text">
+                  <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[315px]" data-node-id="176:1562" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Como transformar um conhecimento técnico e complexo em um conteúdo acessível, fluido e interessante.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start max-w-[351px] relative shrink-0 w-[351px]" data-node-id="176:1563" data-name="div.elementor-element">
+            <div className="content-stretch flex flex-col gap-[var(--item-spacing\/14_4,14.399999618530273px)] h-[100px] items-start relative shrink-0 w-full" data-node-id="176:1564" data-name="ul.elementor-icon-list-items">
+              <div className="content-stretch flex h-[100px] isolate items-center relative shrink-0 w-full" data-node-id="176:1565" data-name="li.elementor-icon-list-item">
+                <div className="content-stretch flex h-[92px] items-start pr-[15.5px] relative shrink-0 z-[2]" data-node-id="176:1566" data-name="span.elementor-icon-list-icon">
+                  <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="176:1567" data-name="Component 1">
+                    <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1567;20:8032" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[304px] z-[1]" data-node-id="176:1568" data-name="span.elementor-icon-list-text">
+                  <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[299px]" data-node-id="176:1569" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Como usar o sistema de conteúdo-mãe para transformar seu raciocínio em múltiplos formatos de conteúdo de profundidade espalhados por diferentes plataformas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col h-[112px] items-start max-w-[351px] relative shrink-0 w-[351px]" data-node-id="176:1570" data-name="div.elementor-element">
+            <div className="content-stretch flex flex-col gap-[var(--item-spacing\/14_4,14.399999618530273px)] h-[132px] items-start relative shrink-0 w-[346.5px]" data-node-id="176:1571" data-name="ul.elementor-icon-list-items">
+              <div className="content-stretch flex isolate items-center relative shrink-0 w-full" data-node-id="176:1572" data-name="li.elementor-icon-list-item">
+                <div className="content-stretch flex h-[104px] items-start pr-[15.5px] relative shrink-0 z-[2]" data-node-id="176:1573" data-name="span.elementor-icon-list-icon">
+                  <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="176:1574" data-name="Component 1">
+                    <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1574;20:8032" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start justify-center pl-[5px] pr-[31.78px] relative shrink-0 w-[317px] z-[1]" data-node-id="176:1575" data-name="span.elementor-icon-list-text">
+                  <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[312px]" data-node-id="176:1576" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Como construir e dominar sua Mídia Proprietária: o passo a passo para criar uma linha editorial e o conteúdo dos seus próprios canais para parar de ser refém das mudanças dos algoritmos das redes sociais.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start max-w-[351px] relative shrink-0 w-[351px]" data-node-id="176:1577" data-name="div.elementor-element">
+            <div className="content-stretch flex flex-col gap-[var(--item-spacing\/14_4,14.399999618530273px)] h-[78px] items-start relative shrink-0 w-full" data-node-id="176:1578" data-name="ul.elementor-icon-list-items">
+              <div className="content-stretch flex h-[78px] isolate items-center relative shrink-0 w-full" data-node-id="176:1579" data-name="li.elementor-icon-list-item">
+                <div className="content-stretch flex h-[65px] items-start pr-[15.5px] relative shrink-0 z-[2]" data-node-id="176:1580" data-name="span.elementor-icon-list-icon">
+                  <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="176:1581" data-name="Component 1">
+                    <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I176:1581;20:8032" data-name="Vector">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[322px] z-[1]" data-node-id="176:1582" data-name="span.elementor-icon-list-text">
+                  <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[290.415px]" data-node-id="176:1583" style={{ fontVariationSettings: '"wdth" 100' }}>{`Como a Inteligência Artificial pode ser usada estrategicamente para potencializar sua criatividade e dar mais segurança e organização. `}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[54.966px] items-start left-[25px] top-[1455px] w-[333px]" data-node-id="185:1745">
+        <div className="content-stretch flex flex-col gap-[23.39px] items-center relative shrink-0 w-full" data-node-id="185:1746">
+          <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0 w-full" data-node-id="185:1747">
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-white tracking-[0.7px] whitespace-nowrap" data-node-id="185:1748" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[19.881px]">PROFISSIONAL LIBERAL</p>
+            </div>
+          </div>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-white w-full whitespace-pre-wrap" data-node-id="185:1749" style={{ fontVariationSettings: '"wdth" 100' }}>{`O conteúdo de fôlego reduz a distância entre “não conheço essa pessoa” e “quero contratar essa pessoa”. Quando o cliente não enxerga diferencial técnico, ele escolhe pelo menor preço. A produção de conteúdo estratégico posiciona você como a  opção lógica para determinado problema.`}</p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[23.39px] items-center relative shrink-0 w-full" data-node-id="185:1750">
+          <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0 w-full" data-node-id="185:1751">
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-center text-white tracking-[0.7px] whitespace-nowrap" data-node-id="185:1752" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[19.881px]">FUNCIONÁRIO</p>
+            </div>
+          </div>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-white w-full whitespace-pre-wrap" data-node-id="185:1753" style={{ fontVariationSettings: '"wdth" 100' }}>{`Se a empresa cortar custos amanhã e você for demitido, todos os projetos incríveis que você fez ficam no portfólio da empresa.  A audiência e a autoridade que você construiu no seu LinkedIn ou podcast vão com você para onde você for.`}</p>
+        </div>
+        <div className="content-stretch flex flex-col gap-[23.39px] h-[257.39px] items-center relative shrink-0 w-full" data-node-id="185:1754">
+          <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0 w-full" data-node-id="185:1755">
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-center text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="185:1756" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[19.881px]">PROFISSIONAL DE COMUNICAÇÃO</p>
+            </div>
+          </div>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-white w-full" data-node-id="185:1757" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Conteúdo Editorial em mídias próprias é considerado o tipo mais difícil e mais relevante de marketing de conteúdo ao longo do tempo. Quem entende como sustentar projetos de Brand Publishing (marca como editora) deixa de atender demandas soltas e passa a pensar em projetos editorias
+          </p>
+        </div>
+      </div>
+      <div className="absolute bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center left-[25px] px-[104px] py-[13px] top-[650px] w-[333px]" data-node-id="185:1775" data-name="Botão Acesso">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I185:1775;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+          QUERO ME INSCREVER
+        </p>
+        <div className="relative shrink-0 size-[20px]" data-node-id="I185:1775;15:221" data-name="Arrow Right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+      <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Instrument_Sans:Bold'] font-bold h-[102px] justify-center leading-[0] left-[25px] text-[#ffd93b] text-[25px] top-[1364px] w-[329px]" data-node-id="185:1785" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[1.4]">POR QUE É FUNDAMENTAL APRENDER CONTEÚDOS LONGOS SE VOCÊ É:</p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Regular'] font-normal leading-[19px] left-[25px] text-[12px] text-white top-[1276px] tracking-[0.96px] uppercase whitespace-nowrap" data-node-id="185:1788" style={{ fontVariationSettings: '"wdth" 100' }}>
+        — O MOMENTO CERTO
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Amarelo Dourado: #FFD93B, COC/Azul Petróleo Escuro: #00394E, COC/Cerceta Claro: #1FA7AB.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

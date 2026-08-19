@@ -1,0 +1,178 @@
+const imgImage1 = "http://localhost:3845/assets/ff962bb0e827945c17feeab3b1fed8dd7a24bc4a.png";
+const imgArrowRight = "http://localhost:3845/assets/6f7b3e81e10d1632f70547b7613eb085dc1329c1.svg";
+const imgArrowRight1 = "http://localhost:3845/assets/3483437f5bc0e15f9ab3d087b3917f2c20fc0213.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-[#032b38] relative size-full" data-node-id="189:2013" data-name="BLOCO">
+      <div className="absolute bg-[#00171f] content-stretch flex h-[69px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[134px] w-[389px]" data-node-id="189:2061">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2023">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#00171f] content-stretch flex h-[69px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[473px] w-[389px]" data-node-id="189:2062">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2063">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#00171f] content-stretch flex h-[69px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[1191px] w-[389px]" data-node-id="189:2070">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2071">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#00171f] content-stretch flex h-[69px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[1491px] w-[389px]" data-node-id="189:2074">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2075">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#00171f] content-stretch flex h-[69px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[1841px] w-[389px]" data-node-id="189:2078">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2079">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#00171f] content-stretch flex h-[92px] items-start left-[-2px] pb-[21px] pl-[350px] pr-[19px] pt-[28px] top-[834px] w-[389px]" data-node-id="189:2066">
+        <div className="flex items-center justify-center relative shrink-0 size-[20px]" data-node-id="189:2067">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute h-[1042px] left-[calc(100%-191.5px)] top-[63px] w-[333px]" data-node-id="189:2020" data-name="div.elementor-element">
+        <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col gap-[32px] items-start justify-center left-1/2 top-[calc(50%-1135.5px)] w-[325px]" data-node-id="176:1777">
+          <div className="h-[417px] relative rounded-[17.333px] shrink-0 w-full" data-node-id="176:1778" data-name="image 1">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[17.333px]">
+              <img alt="" className="absolute h-[118.02%] left-[-0.04%] max-w-none top-[-15.64%] w-[100.04%]" src={imgImage1} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[38px] items-center relative shrink-0 w-[325px]" data-node-id="176:1779">
+            <p className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[normal] relative shrink-0 text-[26px] text-center text-white w-[325px]" data-node-id="176:1780" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Quem é a sua professora?
+            </p>
+            <div className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[#b7cdd6] text-[16px] w-[325px] whitespace-pre-wrap" data-node-id="176:1781" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[20px] mb-0">{`Manu Leão atua há três décadas na interseção entre comunicação, cultura e educação. É editora, curadora literária e designer. `}</p>
+              <p className="leading-[20px] mb-0">​</p>
+              <p className="leading-[20px] mb-0">Com formação em Artes Visuais e especialização em Psicanálise, lidera a Carlô Comunicação e Cultura, agência especializada em Brand Publishing e mídias proprietárias há 20 anos.</p>
+              <p className="leading-[20px] mb-0">​</p>
+              <p className="leading-[20px]">Ao longo da carreira, criou e coordenou revistas, livros, eventos literários, podcasts, portal de notícias e campanhas estratégicas de conteúdo para marcas como Assaí Atacadista, Volvo, Boticário, Bergerson Joias, Matte Leão, Palácio do Planalto, Ministério da Educação, Universidade de Salamanca (Espanha) e UFPR.</p>
+            </div>
+            <div className="bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center px-[104px] py-[13px] relative shrink-0 w-full" data-node-id="176:1782" data-name="Botão Acesso">
+              <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I176:1782;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+                QUERO COMEÇAR JÁ
+              </p>
+              <div className="relative shrink-0 size-[20px]" data-node-id="I176:1782;15:221" data-name="Arrow Right">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-0 text-[16px] text-[color:var(--branco,white)] top-[89px] w-[325px] whitespace-pre-wrap" data-node-id="189:2021" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-[1.5] mb-0">O método funciona para qualquer área de atuação?</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic mb-0">
+            <span className="leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <br aria-hidden />
+            </span>
+            <span className="leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Sim. O Conteúdo Oceânico é um método editorial, por isso pode ser aplicado a diferentes áreas de conhecimento e formatos. Ele foi pensado tanto para especialistas e profissionais liberais que querem transformar seu conhecimento em autoridade quanto para profissionais de comunicação que desenvolvem conteúdo para outras pessoas e marcas.
+            </span>
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">O curso ensina a escrever ou a criar e estruturar projetos de conteúdo?</p>
+          <p className="mb-0">
+            <span className="leading-[1.5]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Os dois, mas o escopo é maior do que escrita. Você aprende a transformar conhecimento em um projeto editorial: encontrar e selecionar temas, definir intenção e público, desenvolver ideias, criar linha e arquitetura editorial, estruturar e produzir o conteúdo, editar, lapidar a linguagem, testar e planejar seus desdobramentos. A escrita é trabalhada como parte desse processo.
+            </span>
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            O Conteúdo Oceânico também serve para quem cria conteúdo para clientes ou empresas?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Sim. O método pode ser usado tanto para construir Thought Leadership para profissionais quanto projetos de Brand Publishing para marcas. Jornalistas, redatores, estrategistas, editores e outros profissionais de comunicação podem aplicá-lo na criação de livros, revistas, podcasts, vídeos, artigos, blogs, aulas e outros projetos para seus clientes.
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            Preciso assinar ChatGPT, Claude ou alguma outra plataforma?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Não há uma plataforma de IA obrigatória. O curso ensina os fundamentos necessários para que você entenda as diferenças entre as ferramentas e possa escolher aquelas que fazem sentido para seu trabalho. Também disponibilizamos agentes, skills e materiais de apoio para facilitar a aplicação prática do método.
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">Como recebo o acesso depois da compra?</p>
+          <p className="mb-0">
+            <span className="leading-[1.5]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Após a confirmação do pagamento, você recebe as instruções de acesso ao curso e aos materiais no e-mail do cadastro. Caso já tenha conta na Hotmart, também encontrará o curso por lá:
+            </span>
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`1. Faça login na Hotmart clicando em 'Entrar'.`}</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`2. Acesse o menu lateral, clique em 'Minha conta'.`}</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`3. Clique em 'Minhas compras' e procure o curso do Conteúdo Oceânico.`}</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            E se eu perceber que o curso não é para mim?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Você pode solicitar o cancelamento e o reembolso dentro do prazo de garantia da compra de 7 dias, dentro da plataforma da Hotmart, sem complicações, sem precisar justificar.
+          </p>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Instrument_Sans:Bold_Italic'] font-bold italic justify-center leading-[0] left-[calc(50%+0.5px)] text-[#ff6300] text-[39px] text-center top-[9.5px] whitespace-nowrap" data-node-id="189:2022" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-none">Possíveis dúvidas:</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Laranja Vibrante: #FF6300.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

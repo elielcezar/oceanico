@@ -1,0 +1,138 @@
+const imgArrowRight = "http://localhost:3845/assets/0cf29289d0e7e070c4e00c0090a8cc5b67fb2a75.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-[#032b38] relative size-full" data-node-id="134:6493" data-name="BLOCO">
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[976px] w-[1280px]" data-node-id="183:1477" />
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[785px] w-[1280px]" data-node-id="183:1478" />
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[639px] w-[1280px]" data-node-id="183:1479" />
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[472px] w-[1280px]" data-node-id="183:1480" />
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[304px] w-[1280px]" data-node-id="183:1481" />
+      <div className="absolute bg-[#00171f] h-[44px] left-0 top-[137px] w-[1280px]" data-node-id="183:1482" />
+      <div className="absolute h-[1042px] left-[220px] right-[220px] top-[63px]" data-node-id="134:6509" data-name="div.elementor-element">
+        <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-0 text-[16px] text-[color:var(--branco,white)] top-[89px] w-[781px] whitespace-pre-wrap" data-node-id="134:6513" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-[1.5] mb-0">O método funciona para qualquer área de atuação?</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic mb-0">
+            <span className="leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <br aria-hidden />
+            </span>
+            <span className="leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Sim. O Conteúdo Oceânico é um método editorial, por isso pode ser aplicado a diferentes áreas de conhecimento e formatos. Ele foi pensado tanto para especialistas e profissionais liberais que querem transformar seu conhecimento em autoridade quanto para profissionais de comunicação que desenvolvem conteúdo para outras pessoas e marcas.
+            </span>
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">O curso ensina a escrever ou a criar e estruturar projetos de conteúdo?</p>
+          <p className="mb-0">
+            <span className="leading-[1.5]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Os dois, mas o escopo é maior do que escrita. Você aprende a transformar conhecimento em um projeto editorial: encontrar e selecionar temas, definir intenção e público, desenvolver ideias, criar linha e arquitetura editorial, estruturar e produzir o conteúdo, editar, lapidar a linguagem, testar e planejar seus desdobramentos. A escrita é trabalhada como parte desse processo.
+            </span>
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            O Conteúdo Oceânico também serve para quem cria conteúdo para clientes ou empresas?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Sim. O método pode ser usado tanto para construir Thought Leadership para profissionais quanto projetos de Brand Publishing para marcas. Jornalistas, redatores, estrategistas, editores e outros profissionais de comunicação podem aplicá-lo na criação de livros, revistas, podcasts, vídeos, artigos, blogs, aulas e outros projetos para seus clientes.
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            Preciso assinar ChatGPT, Claude ou alguma outra plataforma?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Não há uma plataforma de IA obrigatória. O curso ensina os fundamentos necessários para que você entenda as diferenças entre as ferramentas e possa escolher aquelas que fazem sentido para seu trabalho. Também disponibilizamos agentes, skills e materiais de apoio para facilitar a aplicação prática do método.
+          </p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">Como recebo o acesso depois da compra?</p>
+          <p className="mb-0">
+            <span className="leading-[1.5]">
+              <br aria-hidden />
+            </span>
+            <span className="[word-break:break-word] font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Após a confirmação do pagamento, você recebe as instruções de acesso ao curso e aos materiais no e-mail do cadastro. Caso já tenha conta na Hotmart, também encontrará o curso por lá:
+            </span>
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`1. Faça login na Hotmart clicando em 'Entrar'.`}</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`2. Acesse o menu lateral, clique em 'Minha conta'.`}</p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] mb-0 text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>{`3. Clique em 'Minhas compras' e procure o curso do Conteúdo Oceânico.`}</p>
+          <p className="leading-[1.5] mb-0">​</p>
+          <p className="leading-[1.5] mb-0">
+            E se eu perceber que o curso não é para mim?
+            <br aria-hidden />
+            <br aria-hidden />
+          </p>
+          <p className="font-['Instrument_Sans:Italic'] font-normal italic leading-[1.5] text-[#ccf2ff]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Você pode solicitar o cancelamento e o reembolso dentro do prazo de garantia da compra de 7 dias, dentro da plataforma da Hotmart, sem complicações, sem precisar justificar.
+          </p>
+        </div>
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Instrument_Sans:Bold_Italic'] font-bold italic justify-center leading-[0] left-1/2 text-[#ff6300] text-[39px] text-center top-[9.5px] whitespace-nowrap" data-node-id="134:6523" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-none">Possíveis dúvidas:</p>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[86px]" data-node-id="183:1487">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[253px]" data-node-id="183:1491">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[422px]" data-node-id="183:1494">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[590px]" data-node-id="183:1497">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[737px]" data-node-id="183:1500">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute flex items-center justify-center left-[837px] size-[20px] top-[925px]" data-node-id="183:1503">
+          <div className="-rotate-90 flex-none">
+            <div className="relative size-[20px]" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Laranja Vibrante: #FF6300.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

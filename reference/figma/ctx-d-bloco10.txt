@@ -1,0 +1,188 @@
+const imgGroup = "http://localhost:3845/assets/68a7ea9a9f14b875edca62703a0758260d91bf6e.svg";
+const imgOceanico = "http://localhost:3845/assets/5ed0c3703cb0bb995a972f050da87a7ba8ca7f71.svg";
+const imgArrowRight = "http://localhost:3845/assets/d22717670c44b9c75e034ca3af4d03257bcc342b.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-[#032b38] relative size-full" data-node-id="134:6451" data-name="BLOCO 10">
+      <div className="-translate-x-1/2 absolute h-[49px] left-1/2 overflow-clip top-[73px] w-[168px]" data-node-id="134:6453" data-name="logos">
+        <div className="absolute contents inset-[-0.02%_0.04%_48.32%_0.26%]" data-node-id="I134:6453;1:128" data-name="conteudo">
+          <div className="absolute inset-[-0.02%_0.04%_48.32%_0.26%]" data-node-id="I134:6453;1:129" data-name="Group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+          </div>
+        </div>
+        <div className="absolute inset-[43.01%_0_-0.02%_0]" data-node-id="I134:6453;1:138" data-name="oceanico">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOceanico} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex gap-[31px] items-center justify-center left-1/2 max-w-[1252px] pb-[112px] pl-[72px] pr-[32px] pt-[58px] top-[146px] w-[1252px]" data-node-id="183:1413" data-name="div">
+        <div className="h-[421px] relative shrink-0 w-[413px]" data-node-id="183:1414" data-name="div">
+          <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-[-12px]" data-node-id="183:1415" data-name="span">
+            <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/62,#ffd93b)] text-[length:var(--font-size\/11,11px)] tracking-[var(--letter-spacing\/1_98,1.98px)] uppercase whitespace-nowrap" data-node-id="183:1416" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">A oferta</p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[var(--item-spacing\/0_88,0.88px)] items-start leading-[0] left-0 pb-[0.87px] right-0 top-[27px] tracking-[var(--letter-spacing\/-1_44,-1.44px)]" data-node-id="183:1417" data-name="h2">
+            <div className="flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:SemiBold')] font-[var(--font-weight\/600,600)] h-[34px] justify-center relative shrink-0 text-[32px] text-[color:var(--color\/white\/solid,white)] w-[413px]" data-node-id="183:1418" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--line-height\/50_88,50.88px)]">Tenha reconhecimento pelo</p>
+            </div>
+            <div className="flex flex-col font-[family-name:var(--font-family\/font-2,'Instrument_Serif:Italic')] font-[var(--font-style\/italic,italic)] justify-center relative shrink-0 text-[42px] text-[color:var(--color\/yellow\/62,#ffd93b)] whitespace-nowrap" data-node-id="183:1419">
+              <p className="leading-[var(--line-height\/50_88,50.88px)]">seu conhecimento.</p>
+            </div>
+          </div>
+          <div className="absolute border-[var(--color\/cyan\/27-50\%,rgba(0,124,140,0.5))] border-solid border-t-[length:var(--stroke-weight\/1,1px)] content-stretch flex flex-col gap-[var(--corner-radius\/14,14px)] items-start left-0 pt-[25px] right-0 top-[156.75px]" data-node-id="183:1420" data-name="div">
+            <div className="content-stretch flex gap-[var(--corner-radius\/14,14px)] h-[20px] items-start relative shrink-0 w-full" data-node-id="183:1421" data-name="div">
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1422" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/62,#ffd93b)] text-[length:var(--item-spacing\/s,16px)] whitespace-nowrap" data-node-id="183:1423" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">·</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1424" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/azure\/78,#b7cdd6)] text-[length:var(--item-spacing\/s,16px)] whitespace-nowrap" data-node-id="183:1425" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">8 aulas gravadas com as fases do método</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--corner-radius\/14,14px)] h-[20px] items-start relative shrink-0 w-full" data-node-id="183:1426" data-name="div">
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1427" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/62,#ffd93b)] text-[length:var(--item-spacing\/s,16px)] whitespace-nowrap" data-node-id="183:1428" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">·</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1429" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[0px] text-[color:var(--color\/azure\/78,#b7cdd6)] whitespace-nowrap" data-node-id="183:1430" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="text-[16px]">
+                    <span className="leading-[normal]">4 bônus ed</span>
+                    <span className="[word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[normal]" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      itoriais
+                    </span>
+                    <span className="leading-[normal]">, incluindo lives mensais</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--corner-radius\/14,14px)] h-[20px] items-start relative shrink-0 w-full" data-node-id="183:1431" data-name="div">
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1432" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/62,#ffd93b)] text-[length:var(--item-spacing\/s,16px)] whitespace-nowrap" data-node-id="183:1433" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">·</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative self-stretch shrink-0" data-node-id="183:1434" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/azure\/78,#b7cdd6)] text-[length:var(--item-spacing\/s,16px)] whitespace-nowrap" data-node-id="183:1435" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">Acesso imediato por 1 ano</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute border-[var(--color\/cyan\/27-50\%,rgba(0,124,140,0.5))] border-solid border-t-[length:var(--stroke-weight\/1,1px)] content-stretch flex gap-[var(--item-spacing\/20,20px)] items-start left-0 max-w-[520px] pt-[25px] right-0 top-[296px]" data-node-id="183:1436" data-name="div">
+            <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-2,'Instrument_Serif:Italic')] font-[var(--font-style\/italic,italic)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/62,#ffd93b)] text-[length:var(--font-size\/44,44px)] whitespace-nowrap" data-node-id="183:1437">
+              <p className="leading-[var(--font-size\/44,44px)]">7</p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--item-spacing\/6_69,6.69px)] h-[118px] items-start min-w-[483.94000244140625px] relative shrink-0 w-[484px]" data-node-id="183:1438" data-name="div">
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="183:1439" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--font-size\/13,13px)] tracking-[var(--letter-spacing\/1_82,1.82px)] uppercase whitespace-nowrap" data-node-id="183:1440" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[normal]">Garantia incondicional de 7 dias</p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col items-start relative shrink-0 w-[376px]" data-node-id="183:1441" data-name="span">
+                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/azure\/64,#93a9b4)] text-[length:var(--corner-radius\/14,14px)] w-[376px]" data-node-id="183:1442" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  <p className="leading-[var(--line-height\/21_7,21.7px)]">Você tem, por lei, o direito de testar o produto durante 7 dias. Se dentro deste período você achar que esse curso não é pra você, basta cancelar diretamente na sua plataforma da Hotmart, sem precisar justificar.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[var(--color\/orange\/50,#ff6300)] content-stretch flex flex-col gap-[var(--item-spacing\/26,26px)] items-start px-[40px] py-[44px] relative shrink-0 w-[440px]" data-node-id="183:1443" data-name="div">
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="183:1444" data-name="span">
+            <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/88,#fff3c4)] text-[length:var(--font-size\/12,12px)] tracking-[var(--letter-spacing\/1_92,1.92px)] uppercase w-full" data-node-id="183:1445" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Acesso imediato por 1 ano</p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--item-spacing\/xs,8px)] items-start relative shrink-0 w-full" data-node-id="183:1446" data-name="div">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="183:1447" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:SemiBold')] font-[var(--font-weight\/600,600)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/-80\%,rgba(255,255,255,0.8))] text-[length:var(--font-size\/13,13px)] tracking-[var(--letter-spacing\/1_82,1.82px)] uppercase w-full" data-node-id="183:1448" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Por apenas</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="183:1449" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/56,56px)] tracking-[var(--letter-spacing\/-1_96,-1.96px)] w-full" data-node-id="183:1450" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[var(--item-spacing\/56,56px)]">12 × R$ 81,60</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="183:1451" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/yellow\/88,#fff3c4)] text-[length:var(--font-size\/17,17px)] w-full" data-node-id="183:1452" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">ou R$ 789,00 à vista</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[var(--color\/white\/solid,white)] content-stretch flex gap-[9px] items-start justify-center py-[16px] relative shrink-0 w-full" data-node-id="183:1453" data-name="a">
+            <a className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Bold')] font-[var(--font-weight\/700,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/orange\/50,#ff6300)] text-[length:var(--corner-radius\/15,15px)] text-center tracking-[var(--letter-spacing\/1_5,1.5px)] uppercase whitespace-nowrap" href="http://127.0.0.1:19674/__h2d_index.html" data-node-id="183:1454" style={{ fontVariationSettings: '"wdth" 100' }} target="_blank">
+              <p className="cursor-pointer leading-[normal]">Libere meu acesso</p>
+            </a>
+            <div className="relative shrink-0 size-[20px]" data-node-id="185:1543" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+          <div className="h-[60px] relative shrink-0 w-full" data-node-id="183:1455" data-name="div">
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-[33px] content-stretch flex flex-col items-start left-0 px-[10px] py-[7px] top-0" data-node-id="183:1456" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1457" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Visa</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-[33px] content-stretch flex flex-col items-start left-[53.03px] px-[10px] py-[7px] top-0" data-node-id="183:1458" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1459" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Mastercard</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-[33px] content-stretch flex flex-col items-start left-[158.17px] px-[10px] py-[7px] top-0" data-node-id="183:1460" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1461" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Amex</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-[33px] content-stretch flex flex-col items-start left-[217.56px] px-[10px] py-[7px] top-0" data-node-id="183:1462" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1463" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Pix</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-[33px] content-stretch flex flex-col items-start left-[262.55px] px-[10px] py-[7px] top-0" data-node-id="183:1464" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1465" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">PayPal</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-0 content-stretch flex flex-col items-start left-0 px-[10px] py-[7px] top-[33px]" data-node-id="183:1466" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1467" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Google Pay</p>
+              </div>
+            </div>
+            <div className="absolute border-[length:var(--stroke-weight\/1,1px)] border-[var(--color\/white\/-50\%,rgba(255,255,255,0.5))] border-solid bottom-0 content-stretch flex flex-col items-start left-[100.02px] px-[10px] py-[7px] top-[33px]" data-node-id="183:1468" data-name="span">
+              <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/solid,white)] text-[length:var(--item-spacing\/10,10px)] tracking-[var(--stroke-weight\/1,1px)] uppercase whitespace-nowrap" data-node-id="183:1469" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[normal]">Apple Pay</p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="183:1470" data-name="span">
+            <div className="[word-break:break-word] flex flex-col font-[family-name:var(--font-family\/font-1,'Instrument_Sans:Regular')] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/white\/-75\%,rgba(255,255,255,0.75))] text-[length:var(--font-size\/12,12px)] w-full" data-node-id="183:1471" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[normal]">Pagamento processado pela Hotmart.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Laranja Vibrante: #FF6300, COC/Turquesa: #4AC8C8, Bright Sun: #FFD93B, Instrument Sans/Bold upper: Font(family: "font family/Font 1", style: Bold, size: corner radius/15, weight: font weight/700, lineHeight: 100, letterSpacing: letter spacing/1_5), White: #FFFFFF, Instrument Sans/Bold: Font(family: "font family/Font 1", style: Bold, size: item spacing/56, weight: font weight/700, lineHeight: item spacing/56, letterSpacing: letter spacing/-1_96), Jungle Mist: #B7CDD6, Instrument Sans/Regular: Font(family: "font family/Font 1", style: Regular, size: font size/12, weight: font weight/400, lineHeight: 100, letterSpacing: 0), Blue Lagoon 50%: #007C8C, Instrument Serif/Italic: Font(family: "font family/Font 2", style: font style/Italic, size: font size/44, weight: 400, lineHeight: font size/44, letterSpacing: 0), Gull Gray: #93A9B4, Egg White: #FFF3C4, White 80%: #FFFFFF, Instrument Sans/SemiBold upper: Font(family: "font family/Font 1", style: SemiBold, size: font size/13, weight: font weight/600, lineHeight: 100, letterSpacing: letter spacing/1_82), Blaze Orange: #FF6300, Instrument Sans/Regular upper: Font(family: "font family/Font 1", style: Regular, size: item spacing/10, weight: font weight/400, lineHeight: 100, letterSpacing: stroke weight/1), White 50%: #FFFFFF, White 75%: #FFFFFF.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

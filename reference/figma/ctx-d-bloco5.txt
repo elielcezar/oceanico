@@ -1,0 +1,89 @@
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-[#00394e] relative size-full" data-node-id="134:6331" data-name="BLOCO 5">
+      <div className="-translate-y-1/2 [text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute flex flex-col font-['Instrument_Sans:Bold'] font-bold h-[36px] justify-center leading-[0] left-[215px] text-[30px] text-white top-[140px] w-[386px]" data-node-id="134:6333" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[32px]">Se você se pegar pensando:</p>
+      </div>
+      <div className="-translate-y-1/2 [text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute flex flex-col font-['Instrument_Sans:Bold'] font-bold h-[36px] justify-center leading-[0] left-[calc(40%+142px)] text-[30px] text-white top-[156px] w-[391px]" data-node-id="135:6965" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[32px]">Lembre-se de que:</p>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center left-[calc(50%+0.5px)] px-[104px] py-[13px] top-[548px] w-[345px]" data-node-id="134:6335" data-name="Botão Acesso">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6335;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+          LIBERAR MEU ACESSO
+        </p>
+        <div className="relative shrink-0 size-[20px]" data-node-id="I134:6335;15:221" data-name="Arrow Right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[33px] items-center left-[215px] top-[214px] w-[854px]" data-node-id="135:6964">
+        <div className="content-stretch flex flex-col gap-[7px] items-start relative shrink-0 w-[401px]" data-node-id="135:6862" data-name="box eu não">
+          <div className="bg-[rgba(255,255,255,0.2)] content-center flex flex-wrap gap-y-[10px] items-center justify-center px-[10px] py-[13px] relative shrink-0 w-full" data-node-id="135:6857">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-white" data-node-id="135:6858" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[20px]">Eu não tenho tempo.</p>
+            </div>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.2)] content-center flex flex-wrap gap-y-[10px] items-center justify-center px-[10px] py-[13px] relative shrink-0 w-full" data-node-id="135:6859">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-white" data-node-id="135:6860" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[20px] text-pretty">Eu não tenho nada de especial para dizer.</p>
+            </div>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.2)] content-center flex flex-wrap gap-y-[10px] items-center justify-center px-[10px] py-[13px] relative shrink-0 w-full" data-node-id="135:6863">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-white" data-node-id="135:6864" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[20px] text-pretty">Eu sei várias coisas, mas não sei transformá-las em conteúdo.</p>
+            </div>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.2)] content-center flex flex-wrap gap-y-[10px] items-center justify-center px-[10px] py-[13px] relative shrink-0 w-full" data-node-id="135:6865">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-white" data-node-id="135:6866" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="text-pretty whitespace-pre-wrap">
+                <span className="leading-[20px] text-white">
+                  {`Tenho medo de me expor ou parecer pretensiosa `}
+                  <br aria-hidden />
+                </span>
+                <span className="[word-break:break-word] font-['Instrument_Sans:Italic'] font-normal italic leading-[20px] text-white" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  — especialmente as mulheres.
+                </span>
+              </p>
+            </div>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.2)] content-center flex flex-wrap gap-y-[10px] items-center justify-center px-[10px] py-[13px] relative shrink-0 w-full" data-node-id="135:6867">
+            <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] min-w-px relative text-[16px] text-white" data-node-id="135:6868" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[20px] text-pretty">Não vejo retorno suficiente para justificar o esforço.</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[rgba(11,182,31,0.7)] content-stretch flex items-center justify-center pl-[13px] pr-[10px] py-[10px] relative shrink-0 w-[415px]" data-node-id="135:6966">
+          <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium h-[233px] justify-center leading-[0] relative shrink-0 text-[16px] text-white w-[388px] whitespace-pre-wrap" data-node-id="134:6334" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[20px] mb-0">{`Toda semana você resolve problemas, toma decisões, explica conceitos, responde dúvidas, identifica erros, faz escolhas, testa caminhos e acumula repertório. `}</p>
+            <p className="leading-[20px] mb-0">​</p>
+            <p className="leading-[20px] mb-0">Isso já é matéria-prima intelectual. Mesmo que você não saiba (ainda) identificá-la. E esse é só o primeiro passo no Conteúdo Oceânico.</p>
+            <p className="leading-[20px] mb-0">​</p>
+            <p className="font-['Instrument_Sans:Bold'] font-bold leading-[20px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Pare de deixar seu conhecimento morrer no trabalho do dia a dia. Vai valer a pena investir de forma consistente em você.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Regular'] font-normal leading-[19px] left-[215px] text-[12px] text-white top-[63px] tracking-[0.96px] uppercase w-[450px]" data-node-id="184:1514" style={{ fontVariationSettings: '"wdth" 100' }}>
+        — PRA QUEM É
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Azul Petróleo Escuro: #00394E.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

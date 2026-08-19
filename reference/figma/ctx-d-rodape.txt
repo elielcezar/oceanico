@@ -1,0 +1,52 @@
+const imgGroup = "http://localhost:3845/assets/eb191a2c7ab6e89a1b0a0654f50f72b22c5beb91.svg";
+
+export default function SectionElementorElement() {
+  return (
+    <div className="bg-[#00171f] content-stretch flex flex-col items-start px-[20px] py-[48px] relative size-full" data-node-id="134:6524" data-name="section.elementor-element">
+      <div className="h-[237px] relative shrink-0 w-full" data-node-id="134:6525" data-name="div.elementor-element">
+        <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-start justify-center left-1/2 max-w-[350px] top-0" data-node-id="134:6526" data-name="div.elementor-element">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--item-spacing\/10_5,10.5px)] items-center leading-[0] min-w-[350px] pb-[7px] pl-[22.66px] pr-[22.65px] pt-[4.5px] relative shrink-0 text-[color:var(--color\/cyan\/87,#d4eae8)] text-center whitespace-nowrap" data-node-id="134:6527" data-name="div.elementor-widget-container">
+            <div className="flex flex-col font-['Instrument_Sans:Regular'] font-normal justify-center relative shrink-0 text-[19.2px]" data-node-id="134:6528" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--corner-radius\/23,23px)]">Todos os direitos reservados ©</p>
+            </div>
+            <div className="flex flex-col font-['Instrument_Sans:Bold'] font-[var(--font-weight\/700,700)] justify-center relative shrink-0 text-[14.6px] tracking-[var(--stroke-weight\/0_2,0.1997px)] uppercase" data-node-id="134:6529" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--line-height\/12_8,12.8px)]">conteúdo oceânico</p>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col items-center left-0 right-0 top-[75.88px]" data-node-id="134:6530" data-name="p.e-73d2261-e17839c">
+          <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Regular'] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[9px] text-[color:var(--color\/cyan\/88-40\%,rgba(213,235,233,0.4))] text-center tracking-[var(--letter-spacing\/-0_24,-0.24px)] w-[844px]" data-node-id="134:6531" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[11px]">Ao interagir nesta página, o usuário declara estar ciente e de acordo com os presentes Termos de Uso e com a Política de Privacidade, autorizando o tratamento de seus dados pessoais nos termos da Lei nº 13.709/2018 (Lei Geral de Proteção de Dados – LGPD), exclusivamente para finalidades relacionadas à comunicação, marketing, envio de conteúdos informativos e ofertas comerciais. Ao informar seu e-mail, o usuário autoriza o envio de comunicações promocionais, publicitárias e institucionais por meios digitais, podendo solicitar o descadastramento a qualquer momento. Este site não possui qualquer vínculo, afiliação ou endosso com Facebook, Instagram ou empresas do grupo Meta Platforms, Inc., sendo tais plataformas utilizadas exclusivamente para fins de veiculação de anúncios.</p>
+          </div>
+        </div>
+        <div className="absolute bg-[var(--color\/cyan\/87,#d4eae8)] h-px left-0 right-0 top-[162.34px]" data-node-id="134:6532" data-name="hr.e-64e8fb0-581e4ba" />
+        <div className="-translate-x-1/2 absolute content-stretch flex gap-[6px] items-center left-[calc(50%-2.42px)] top-[181px]" data-node-id="134:6533" data-name="div.elementor-element">
+          <div className="content-stretch flex flex-col items-center relative shrink-0" data-node-id="134:6534" data-name="p.e-2c1a9dd-7081b39">
+            <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Regular'] font-[var(--font-weight\/400,400)] justify-center leading-[0] relative shrink-0 text-[color:var(--color\/cyan\/87,#d4eae8)] text-[length:var(--font-size\/18,18px)] text-center whitespace-nowrap" data-node-id="134:6535" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--line-height\/56,56px)]">Desenvolvida por</p>
+            </div>
+          </div>
+          <div className="h-[16.679px] relative shrink-0 w-[55.167px]" data-node-id="134:6536" data-name="Group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: conteudooceanico.com.br/Swans Down: #D4EAE8, conteudooceanico.com.br/Swans Down 40%: #D5EBE9.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

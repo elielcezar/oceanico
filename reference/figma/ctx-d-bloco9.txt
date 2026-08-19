@@ -1,0 +1,99 @@
+const imgImage4 = "http://localhost:3845/assets/e53e067a66e2664c580c81e6f83e062ff5bbe769.png";
+const imgRectangle7 = "http://localhost:3845/assets/9fff634d6db559a72093597cab5f71958c3c577e.png";
+const imgRectangle8 = "http://localhost:3845/assets/883d48f3c88cd3e478b985363dbc5698be179fa0.png";
+const imgRectangle9 = "http://localhost:3845/assets/fdf10cac9e6e1b3226685d57861f4277f27b7766.png";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-gradient-to-b from-[#023d53] relative size-full to-[#00202b] to-[47.838%]" data-node-id="134:6430" data-name="BLOCO 9">
+      <div className="-translate-x-1/2 [text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-1/2 text-[0px] text-[color:var(--branco,white)] text-center top-[72px] w-[1280px] whitespace-pre-wrap" data-node-id="134:6431" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[1.5] mb-0 text-[16px]">{`ALÉM DAS AULAS VOCÊ TAMBÉM  TERÁ ACESSO À:`}</p>
+        <p className="leading-[1.2] mb-0 text-[16px]">​</p>
+        <p className="font-['Instrument_Sans:Bold_Italic'] font-bold italic leading-none text-[#ffd93b] text-[30px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Bônus exclusivos
+        </p>
+      </div>
+      <div className="absolute gap-x-[20px] gap-y-[20px] grid grid-cols-[repeat(2,minmax(0,1fr))] grid-rows-[repeat(2,fit-content(100%))] left-[215px] top-[166px] w-[850px]" data-node-id="135:6870">
+        <div className="bg-[rgba(0,124,140,0.5)] h-[353px] justify-self-stretch relative shrink-0" data-node-id="134:6437">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-none left-[23px] right-[23px] text-[#00fffd] text-[20px] text-center top-[174px] tracking-[-0.4px]" data-node-id="134:6438" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Skills de CRIATIVIDADE para IA
+          </p>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[18px] left-[23px] right-[23px] text-[13px] text-center text-white top-[210px]" data-node-id="134:6439" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Quatro habilidades de IA, que funcionam em conjunto, para expandir seu projeto. Baseadas em várias técnicas de criatividade, elas são treinadas para extrair as melhores ideias de VOCÊ. Ter novas inspirações com este direcionamento guiado é mais fácil, mais prazeroso e menos angustiante.
+          </p>
+          <div className="-translate-x-1/2 absolute left-[calc(50%+3.5px)] rounded-[300px] size-[170px] top-[-22px]" data-node-id="134:6440" data-name="image 4">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[300px]">
+              <img alt="" className="absolute h-[99.51%] left-[-6.11%] max-w-none top-[0.24%] w-[112.22%]" src={imgImage4} />
+            </div>
+          </div>
+        </div>
+        <div className="bg-[rgba(0,124,140,0.5)] h-[353px] justify-self-stretch relative shrink-0" data-node-id="184:1530">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-none left-[23px] right-[23px] text-[#00fffd] text-[20px] text-center top-[174px] tracking-[-0.4px]" data-node-id="184:1531" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Glossário Editorial
+          </p>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[18px] left-[23px] right-[23px] text-[13px] text-center text-white top-[210px]" data-node-id="184:1532" style={{ fontVariationSettings: '"wdth" 100' }}>{`Quanto mais você usa termos corretos e linguagem especializada, mais a IA aprofunda a conversa com você. Com este glossário você aprende mais sobre formatos de textos, naturezas de escrita, tons, posições de enunciação, estratégias de abertura e progressões narrativas, cada termo com definição funcional e uso. `}</p>
+          <div className="absolute flex items-center justify-center left-[118.5px] size-[170px] top-[-18px]" data-node-id="184:1533">
+            <div className="flex-none rotate-180">
+              <div className="relative rounded-[300px] size-[170px]">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[300px]">
+                  <img alt="" className="absolute h-[121.3%] left-[-13.9%] max-w-none top-[-14.49%] w-[125%]" src={imgRectangle7} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[rgba(0,124,140,0.5)] h-[293px] justify-self-stretch relative self-start shrink-0" data-node-id="184:1534">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-none left-[23px] right-[23px] text-[#00fffd] text-[20px] text-center top-[174px] tracking-[-0.4px]" data-node-id="184:1535" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Live Tira Dúvida
+          </p>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[18px] left-[23px] right-[23px] text-[13px] text-center text-white top-[210px]" data-node-id="184:1536" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Encontros mensais ao vivo para acompanhamento, esclarecimento de dúvidas e refinamento do seu projeto.
+          </p>
+          <div className="absolute flex items-center justify-center left-[118.5px] size-[170px] top-[-18px]" data-node-id="184:1537">
+            <div className="flex-none rotate-180">
+              <div className="relative rounded-[300px] size-[170px]">
+                <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[300px] size-full" src={imgRectangle8} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[rgba(0,124,140,0.5)] h-[293px] justify-self-stretch relative self-start shrink-0" data-node-id="134:6441">
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-none left-[23px] right-[23px] text-[#00fffd] text-[20px] text-center top-[174px] tracking-[-0.4px]" data-node-id="134:6442" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Arquivos das aulas
+          </p>
+          <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[18px] left-[23px] right-[23px] text-[13px] text-center text-white top-[210px]" data-node-id="134:6443" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Versões dos slides com textos, exemplos, esquemas visuais para consulta e revisão do que foi aprendido.
+          </p>
+          <div className="absolute left-[118.5px] rounded-[300px] size-[170px] top-[-18px]" data-node-id="134:6444">
+            <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[300px] size-full" src={imgRectangle9} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-[#e96100] content-stretch flex gap-[10px] h-[41.721px] items-center justify-center left-[calc(50%+0.5px)] px-[104px] top-[905px] w-[335px]" data-node-id="134:6450" data-name="Botão Acesso">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6450;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+          LIBERE MEU ACESSO
+        </p>
+        <div className="relative shrink-0 size-[20px]" data-node-id="I134:6450;15:221" data-name="Arrow Right">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Branco: #FFFFFF.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

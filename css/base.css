@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Conteudo Oceanico - Manu Leao
+   Base: reset, tokens do Figma, escala fluida e componentes recorrentes.
+
+   ESCALA FLUIDA
+   O design tem duas ancoras: mobile 375px e desktop 1280px. Todo valor que
+   muda entre as duas usa a formula abaixo, que interpola linearmente entre
+   elas e trava nas pontas:
+
+       clamp(MIN, calc(MIN + DELTA * (100vw - 375px) / 905), MAX)
+
+   905 = 1280 - 375. Abaixo de 375 fica no MIN, acima de 1280 fica no MAX.
+   Medidas horizontais de bloco (colunas, recuos) sao percentuais de 1280,
+   para o layout desktop encolher proporcionalmente ate a quebra em 768px.
+   ========================================================================== */
+
+@import url("fontes.css");
+
+/* --------------------------------------------------------------- reset --- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* os CTAs levam para blocos da propria pagina por ancora */
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--azul-profundo);
+  color: var(--branco);
+  font-family: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-variation-settings: "wdth" 100;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------- tokens --- */
+
+:root {
+  /* paleta COC (variaveis do arquivo do Figma) */
+  --laranja: #ff6300;
+  --laranja-botao: #ff5e00;
+  --amarelo: #ffd93b;
+  --turquesa: #4ac8c8;
+  --turquesa-claro: #80e1d8;
+  --verde-menta: #b6f5e3;
+  --cerceta: #007c8c;
+  --cerceta-claro: #1fa7ab;
+  --azul-petroleo-escuro: #00394e;
+  --azul-petroleo-medio: #005873;
+  --azul-profundo: #032b38;
+  --azul-fundo-claro: #ccf2ff;
+  --azul-acinzentado: #6da4b7;
+  --azul-nevoa: #b7cdd6;
+  --cinza-gaivota: #93a9b4;
+  --branco: #ffffff;
+  --preto: #000000;
+  --creme: #fff3c4;
+  --agua: #d4eae8;
+
+  /* larguras das ancoras do design */
+  --largura-desktop: 1280px;
+  --largura-mobile: 375px;
+
+  /* tipografia recorrente */
+  --fs-olho: 12px; /* linha de apoio em caixa alta */
+  --lh-olho: 19px;
+  --ls-olho: 0.96px;
+  --fs-corpo: 15px;
+  --lh-corpo: 21px;
+  --fs-botao: 13px;
+  --ls-botao: 1.3px;
+}
+
+/* ----------------------------------------------------------- container --- */
+
+/* Todo conteudo da pagina vive dentro de um container de 850px, centrado.
+   Ficam de fora, por natureza: fundos e degrades das secoes, as decoracoes
+   que sangram (mergulhador, brilho, faixa do FAQ) e o carrossel de aulas,
+   que precisa cortar na borda da tela. */
+.container {
+  width: 100%;
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+/* Entre a quebra do desktop e os 850px o container encosta na borda da tela;
+   acima disso a propria largura da janela ja da o respiro. No mobile o recuo
+   vem dos blocos, entao esta faixa nao pode passar de 889px. */
+@media (min-width: 768px) and (max-width: 889px) {
+  .container {
+    padding-inline: 20px;
+  }
+}
+
+/* ------------------------------------------------- entrada com a rolagem --- */
+
+/*
+   O estado inicial so vale quando ha JS (a classe `js` vem do <head>) e quando
+   o sistema nao pede menos movimento. Sem uma das duas coisas nada e escondido:
+   a leitura da pagina nunca depende do script.
+
+   data-anima          -> o proprio elemento entra
+   data-anima="lista"  -> os filhos diretos entram em sequencia
+*/
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-anima]:not([data-anima="lista"]),
+  .js [data-anima="lista"] > * {
+    opacity: 0;
+    translate: 0 40px;
+  }
+
+  .js [data-anima]:not([data-anima="lista"]).visivel,
+  .js [data-anima="lista"].visivel > * {
+    opacity: 1;
+    translate: 0 0;
+    transition:
+      opacity 0.8s ease,
+      translate 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  /* escalonamento das listas e grades */
+  .js [data-anima="lista"].visivel > :nth-child(2) {
+    transition-delay: 0.15s;
+  }
+
+  .js [data-anima="lista"].visivel > :nth-child(3) {
+    transition-delay: 0.3s;
+  }
+
+  .js [data-anima="lista"].visivel > :nth-child(4) {
+    transition-delay: 0.45s;
+  }
+
+  .js [data-anima="lista"].visivel > :nth-child(5) {
+    transition-delay: 0.6s;
+  }
+
+  .js [data-anima="lista"].visivel > :nth-child(6) {
+    transition-delay: 0.75s;
+  }
+
+  .js [data-anima="lista"].visivel > :nth-child(7) {
+    transition-delay: 0.9s;
+  }
+
+  /* do oitavo em diante todos entram juntos, para a fila nao ficar longa */
+  .js [data-anima="lista"].visivel > :nth-child(n + 8) {
+    transition-delay: 1.05s;
+  }
+}
+
+/* ---------------------------------------------------------- tipografia --- */
+
+.olho {
+  font-size: var(--fs-olho);
+  line-height: var(--lh-olho);
+  letter-spacing: var(--ls-olho);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* quebra de linha que so existe no frame mobile do Figma */
+.quebra-mobile {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .quebra-mobile {
+    display: none;
+  }
+}
+
+/* quebra de linha que so existe no frame desktop do Figma */
+.quebra-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .quebra-desktop {
+    display: inline;
+  }
+}
+
+.serif-italico {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------- botoes --- */
+
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 42px;
+  padding: 13px 24px;
+  font-size: var(--fs-botao);
+  font-weight: 500;
+  letter-spacing: var(--ls-botao);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.botao--laranja {
+  background: var(--laranja-botao);
+  color: var(--branco);
+}
+
+.botao--contorno {
+  border: 1px solid var(--azul-acinzentado);
+  color: var(--azul-acinzentado);
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.botao--contorno:hover,
+.botao--contorno:focus-visible {
+  background: #06191f;
+  border-color: #c8f1ff;
+  color: #c8f1ff;  
+}
+
+/*
+   .cta-oferta e a classe de intencao dos botoes que levam ao bloco da oferta:
+   mesmo destino, mesmo comportamento. O visual continua vindo de .botao--laranja,
+   para que mudar a cor de um botao nunca mude para onde ele leva.
+*/
+
+/* A seta anda 10px em qualquer link que a contenha - inclusive o botao de
+   checkout, que nao e um .cta-oferta. Assim um botao novo com seta ja nasce
+   com o efeito, sem manutencao de lista de seletores. */
+.botao__seta {
+  transition: translate 0.25s ease;
+}
+
+a:hover > .botao__seta,
+a:focus-visible > .botao__seta {
+  translate: 10px 0;
+}
+
+.botao__seta {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}

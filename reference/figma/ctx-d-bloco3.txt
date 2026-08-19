@@ -1,0 +1,163 @@
+const imgRectangle6 = "http://localhost:3845/assets/54867ae33b5a07447e790cdb0e8184b6ca88a671.png";
+const imgImage5 = "http://localhost:3845/assets/3dc5d5751373b974807d571bd94cc4018def7ba8.png";
+const imgVector1 = "http://localhost:3845/assets/05c9dd3cdd91a75cb6ea938415bf8cf945649973.svg";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+const imgVector = "http://localhost:3845/assets/3ed0359c39221f6365688ec3ea34e82778365bd8.svg";
+const imgVector2 = "http://localhost:3845/assets/5f53b67f2b60c8840ed9c60b40b59869bb0fc375.svg";
+const imgVector3 = "http://localhost:3845/assets/7bc8ecbd57585829a1fa95ef86868cb3e35292b5.svg";
+
+export default function Bloco() {
+  return (
+    <div className="bg-gradient-to-b from-[6.259%] from-[var(--coc\/azul-fundo,#ccf2ff)] relative size-full to-[#032b38] to-[68.54%] via-[#6da4b7] via-[42.3%]" data-node-id="134:6306" data-name="BLOCO 3">
+      <div className="absolute bottom-0 contents right-[139px]" data-node-id="135:6849">
+        <div className="absolute bottom-0 h-[371.995px] right-[139px] w-[458px]" data-node-id="135:6850">
+          <img alt="" className="absolute inset-0 max-w-none mix-blend-multiply object-bottom pointer-events-none size-full" src={imgRectangle6} />
+        </div>
+        <div className="absolute bottom-[202px] h-[273px] mix-blend-hard-light right-[182px] w-[277px]" data-node-id="135:6851">
+          <div className="absolute inset-[-4.76%_-4.69%]">
+            <img alt="" className="block max-w-none size-full" src={imgVector1} />
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Medium'] font-medium leading-[0] left-[calc(30%-164px)] text-[25px] text-white top-[1315px] w-[521px]" data-node-id="134:6321" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[normal] mb-0">O momento é agora!</p>
+        <p className="leading-[normal]">{`A IA barateou a produção de conteúdo mediano. O mercado está sendo empurrado de volta para conteúdos mais profundos. `}</p>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[58px] items-center justify-center left-[220px] top-[803px] w-[841px]" data-node-id="135:6957">
+        <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Bold'] font-bold justify-center leading-[0] relative shrink-0 text-[#ffd93b] text-[25px] w-full whitespace-pre-wrap" data-node-id="134:6320" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-[1.4] mb-0">{`POR QUE É FUNDAMENTAL APRENDER `}</p>
+          <p className="leading-[1.4]">CONTEÚDOS LONGOS SE VOCÊ É:</p>
+        </div>
+        <div className="gap-x-[50px] gap-y-[54.96609878540039px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(1,fit-content(100%))] relative shrink-0 w-full" data-node-id="134:6307">
+          <div className="content-stretch flex flex-col gap-[23.39px] items-center justify-self-stretch relative self-start shrink-0" data-node-id="134:6308">
+            <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0 w-full" data-node-id="134:6309">
+              <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-white tracking-[0.7px] whitespace-nowrap" data-node-id="134:6310" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[19.881px]">PROFISSIONAL LIBERAL</p>
+              </div>
+            </div>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-white w-full whitespace-pre-wrap" data-node-id="134:6311" style={{ fontVariationSettings: '"wdth" 100' }}>{`O conteúdo de fôlego reduz a distância entre “não conheço essa pessoa” e “quero contratar essa pessoa”. Quando o cliente não enxerga diferencial técnico, ele escolhe pelo menor preço. A produção de conteúdo estratégico posiciona você como a  opção lógica para determinado problema.`}</p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[23.39px] items-center justify-self-stretch relative self-stretch shrink-0" data-node-id="134:6312">
+            <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0 w-full" data-node-id="134:6313">
+              <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-center text-white tracking-[0.7px] whitespace-nowrap" data-node-id="134:6314" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[19.881px]">FUNCIONÁRIO</p>
+              </div>
+            </div>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] relative shrink-0 text-[16px] text-white w-full whitespace-pre-wrap" data-node-id="134:6315" style={{ fontVariationSettings: '"wdth" 100' }}>{`Se a empresa cortar custos amanhã e você for demitido, todos os projetos incríveis que você fez ficam no portfólio da empresa.  A audiência e a autoridade que você construiu no seu LinkedIn ou podcast vão com você para onde você for.`}</p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[23.39px] items-center justify-self-stretch relative self-stretch shrink-0" data-node-id="134:6316">
+            <div className="bg-[rgba(249,160,0,0.43)] border border-[rgba(255,255,255,0.4)] border-solid content-stretch flex h-[42px] items-center justify-center px-[12px] py-[3.508px] relative rounded-[3px] shrink-0" data-node-id="134:6317">
+              <div className="[word-break:break-word] flex flex-col font-['Instrument_Sans:Medium'] font-medium justify-center leading-[0] relative shrink-0 text-[14px] text-center text-white tracking-[-0.28px] whitespace-nowrap" data-node-id="134:6318" style={{ fontVariationSettings: '"wdth" 100' }}>
+                <p className="leading-[19.881px]">PROFISSIONAL DE COMUNICAÇÃO</p>
+              </div>
+            </div>
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[20px] min-w-full relative shrink-0 text-[16px] text-white w-[min-content]" data-node-id="134:6319" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Conteúdo Editorial em mídias próprias é considerado o tipo mais difícil e mais relevante de marketing de conteúdo ao longo do tempo. Quem entende como sustentar projetos de Brand Publishing (marca como editora) deixa de atender demandas soltas e passa a pensar em projetos editorias
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col items-start left-[calc(40%+111px)] top-[645px] w-[337px]" data-node-id="135:6960">
+        <div className="bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center px-[104px] py-[13px] relative shrink-0 w-full" data-node-id="134:6302" data-name="Botão Acesso">
+          <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6302;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+            QUERO ME INSCREVER
+          </p>
+          <div className="relative shrink-0 size-[20px]" data-node-id="I134:6302;15:221" data-name="Arrow Right">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col items-center left-1/2 max-w-[390px] pt-[1.448px] top-[-2.18px] w-[78px]" data-node-id="134:6303" data-name="div.elementor-element">
+        <div className="aspect-[78/22.77372169494629] content-stretch flex items-center justify-center max-w-[78px] overflow-clip relative shrink-0" data-node-id="134:6304" data-name="div-prioli.svg">
+          <div className="h-[22.774px] opacity-[var(--opacity\/100,1)] overflow-clip relative shrink-0 w-[78px]" data-node-id="134:6305" data-name="Component 1">
+            <div className="absolute inset-[0_0.29%_0.86%_0] opacity-[var(--opacity\/100,1)]" data-node-id="I134:6305;20:8037" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+            </div>
+            <div className="absolute inset-[39.66%_43.39%_38.31%_43.74%] opacity-[var(--opacity\/100,1)]" data-node-id="I134:6305;20:8038" data-name="Vector">
+              <div className="absolute inset-[-15%_-7.5%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector2} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[36px] items-start left-[calc(40%+89px)] top-[259px] w-[464px]" data-node-id="183:1310">
+        <div className="content-stretch flex gap-[4px] items-start relative shrink-0 w-[461px]" data-node-id="183:1304">
+          <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="183:1301" data-name="Component 1">
+            <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I183:1301;20:8032" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[446px]" data-node-id="183:1298" data-name="span.elementor-icon-list-text">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[441px]" data-node-id="183:1299" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Como transformar um conhecimento técnico e complexo em um conteúdo acessível, fluido e interessante.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start relative shrink-0 w-[461px]" data-node-id="183:1305">
+          <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="183:1306" data-name="Component 1">
+            <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I183:1306;20:8032" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[446px]" data-node-id="183:1307" data-name="span.elementor-icon-list-text">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[441px]" data-node-id="183:1308" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Como usar o sistema de conteúdo-mãe para transformar seu raciocínio em múltiplos formatos de conteúdo de profundidade espalhados por diferentes plataformas.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start relative shrink-0 w-[461px]" data-node-id="183:1311">
+          <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="183:1312" data-name="Component 1">
+            <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I183:1312;20:8032" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[446px]" data-node-id="183:1313" data-name="span.elementor-icon-list-text">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[474px]" data-node-id="183:1314" style={{ fontVariationSettings: '"wdth" 100' }}>
+              Como construir e dominar sua Mídia Proprietária: o passo a passo para criar uma linha editorial e o conteúdo dos seus próprios canais para parar de ser refém das mudanças dos algoritmos das redes sociais.
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[4px] items-start relative shrink-0 w-[461px]" data-node-id="183:1316">
+          <div className="overflow-clip relative shrink-0 size-[14px]" data-node-id="183:1317" data-name="Component 1">
+            <div className="absolute inset-[0_1.86%_1.61%_1.85%] opacity-[var(--opacity\/100,1)]" data-node-id="I183:1317;20:8032" data-name="Vector">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col items-start pl-[5px] pr-[31.78px] relative shrink-0 w-[446px]" data-node-id="183:1318" data-name="span.elementor-icon-list-text">
+            <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[20px] relative shrink-0 text-[#00394e] text-[16px] w-[441px]" data-node-id="183:1319" style={{ fontVariationSettings: '"wdth" 100' }}>{`Como a Inteligência Artificial pode ser usada estrategicamente para potencializar sua criatividade e dar mais segurança e organização. `}</p>
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Instrument_Sans:Bold'] font-bold leading-[0] left-[215px] text-[#00394e] text-[0px] top-[83px] whitespace-nowrap" data-node-id="183:1321" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <p className="leading-[48px] mb-0 text-[46px]">Nesse curso,</p>
+        <p className="text-[46px]">
+          <span className="leading-[48px]">{`você vai `}</span>
+          <span className="[word-break:break-word] font-['Instrument_Serif:Italic'] italic leading-[48px]">descobrir:</span>
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Regular'] font-normal leading-[19px] left-[220px] text-[12px] text-white top-[766px] tracking-[0.96px] uppercase w-[455px]" data-node-id="183:1473" style={{ fontVariationSettings: '"wdth" 100' }}>
+        — O MOMENTO CERTO
+      </p>
+      <div className="absolute h-[453px] left-[215px] top-[234px] w-[324px]" data-node-id="185:1539" data-name="image 5">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage5} />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Amarelo Dourado: #FFD93B, COC/Azul Petróleo Escuro: #00394E, COC/Cerceta Claro: #1FA7AB.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.

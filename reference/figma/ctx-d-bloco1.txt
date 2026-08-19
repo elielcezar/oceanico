@@ -1,0 +1,71 @@
+const imgFotoManu = "http://localhost:3845/assets/8bde109ac92ad8144603eb6282e17d4e61059e4f.png";
+const imgArrowRight = "http://localhost:3845/assets/a145c4aa886259e91fe067a382dac7ec25434272.svg";
+
+export default function Bloco() {
+  return (
+    <div className="relative size-full" data-node-id="134:6252" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1280 656' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-33.45 -42 39.213 -31.23 1007.5 511.5)'><stop stop-color='rgba(0,88,116,1)' offset='0'/><stop stop-color='rgba(2,65,86,1)' offset='0.44061'/><stop stop-color='rgba(3,43,56,1)' offset='0.88123'/></radialGradient></defs></svg>\")" }} data-name="BLOCO 1">
+      <div className="absolute content-stretch flex flex-col gap-[30px] items-start left-[215px] top-[81px] w-[455px]" data-node-id="134:6253">
+        <p className="[word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[0] min-w-full relative shrink-0 text-[#ffd93b] text-[12px] tracking-[0.96px] uppercase w-[min-content]" data-node-id="134:6254" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <span className="leading-[19px]">{`— Sete fases entre o que você sabe e o conteúdo que constrói sua `}</span>
+          <span className="font-['Instrument_Sans:Bold'] font-bold leading-[19px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+            autoridade
+          </span>
+          <span className="leading-[19px]">.</span>
+        </p>
+        <div className="[word-break:break-word] font-['Instrument_Sans:Bold'] font-bold leading-[0] min-w-full relative shrink-0 text-[#4ac8c8] text-[0px] w-[min-content] whitespace-pre-wrap" data-node-id="134:6255" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <p className="leading-[48px] mb-0 text-[46px] text-white">{`Crie conteúdos `}</p>
+          <p className="leading-[48px] mb-0 text-[46px] text-white">que tornem visível</p>
+          <p className="font-['Instrument_Serif:Italic'] italic leading-[48px] text-[#ffd93b] text-[46px]">a sua capacidade</p>
+        </div>
+        <p className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] font-['Instrument_Sans:Regular'] font-normal leading-[21px] min-w-full relative shrink-0 text-[15px] text-[rgba(255,255,255,0.8)] w-[min-content]" data-node-id="134:6256" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Um método editorial para especialistas, profissionais liberais e comunicadores de marca transformarem conhecimento em conteúdo longo, autoral e duradouro: artigos, livros, podcasts, aulas, canais de vídeos, palestras.
+        </p>
+        <div className="content-stretch flex gap-[30px] items-start relative shrink-0" data-node-id="183:755">
+          <div className="bg-[#ff5e00] content-stretch flex gap-[10px] h-[42px] items-center justify-center px-[104px] py-[13px] relative shrink-0 w-[212px]" data-node-id="134:6258" data-name="Botão Acesso">
+            <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[13px] text-[color:var(--branco,white)] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I134:6258;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+              QUERO COMEÇAR
+            </p>
+            <div className="relative shrink-0 size-[20px]" data-node-id="I134:6258;15:221" data-name="Arrow Right">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRight} />
+            </div>
+          </div>
+          <div className="border border-[#6da4b7] border-solid content-stretch flex gap-[10px] h-[42px] items-center justify-center px-[104px] py-[13px] relative shrink-0 w-[212px]" data-node-id="183:750" data-name="Botão Acesso">
+            <p className="[word-break:break-word] font-['Instrument_Sans:Medium'] font-medium leading-[normal] relative shrink-0 text-[#6da4b7] text-[13px] text-center tracking-[1.3px] whitespace-nowrap" data-node-id="I183:750;15:215" style={{ fontVariationSettings: '"wdth" 100' }}>
+              VER AS 8 FASES
+            </p>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Instrument_Sans:Regular'] font-normal h-[19px] leading-[0] left-[215px] text-[#6da4b7] text-[0px] top-[618px] tracking-[0.96px] uppercase w-[455px]" data-node-id="183:756" style={{ fontVariationSettings: '"wdth" 100' }}>
+        <span className="font-['Instrument_Sans:Medium'] font-medium leading-[19px] text-[12px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Manu Leão
+        </span>
+        <span className="font-['Instrument_Sans:Italic'] italic leading-[19px] text-[12px]" style={{ fontVariationSettings: '"wdth" 100' }}>{` `}</span>
+        <span className="font-['Instrument_Sans:Bold'] font-bold leading-[19px] text-[10px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+          EDITORA E ESPECIALISTA EM COMUNICAÇÃO
+        </span>
+      </p>
+      <div className="-translate-y-1/2 absolute h-[532px] right-[169px] top-[calc(50%+62px)] w-[453px]" data-node-id="134:6257" data-name="foto manu">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[197.79%] left-[-18.26%] max-w-none top-[-97.79%] w-[133.57%]" src={imgFotoManu} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: COC/Amarelo Dourado: #FFD93B, COC/Turquesa: #4AC8C8.
+
+Image assets are stored on a localhost server. Clients can use these images directly in code as a way to view the image assets the same way they would other remote servers. Images and SVGs will be stored as constants, e.g. const image = 'http://localhost:3845/assets/10c13ac1a228a365cb98a0064b1d5afbc84887b2.png' These constants will be used in the code as the source for the image, e.g. <img src={image} /> This is true for both images and SVGs, so you can use the same approach for both types of assets.
+
+IMPORTANT: After you call this tool, you MUST call get_screenshot to get a screenshot of the node for context.
